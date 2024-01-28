@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vladbuyalo/Documents/GitHub/TasksApp/ConsoleTest/ConsoleTest.csproj": {}
+  },
+  "projects": {
+    "/Users/vladbuyalo/Documents/GitHub/TasksApp/ConsoleTest/ConsoleTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vladbuyalo/Documents/GitHub/TasksApp/ConsoleTest/ConsoleTest.csproj",
+        "projectName": "ConsoleTest",
+        "projectPath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/ConsoleTest/ConsoleTest.csproj",
+        "packagesPath": "/Users/vladbuyalo/.nuget/packages/",
+        "outputPath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/ConsoleTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vladbuyalo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/Mobile.Shared.csproj": {
+                "projectPath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/Mobile.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/Mobile.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/Mobile.Shared.csproj",
+        "projectName": "Mobile.Shared",
+        "projectPath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/Mobile.Shared.csproj",
+        "packagesPath": "/Users/vladbuyalo/.nuget/packages/",
+        "outputPath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/Mobile.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vladbuyalo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Azure.NotificationHubs": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

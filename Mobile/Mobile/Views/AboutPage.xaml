@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.Views.AboutPage"
+             Title="Налаштування" 
+             NavigationPage.HasBackButton="False">
+
+    <StackLayout Padding="10,10,10,0">
+        <Label FontSize="Large" HorizontalOptions="FillAndExpand" VerticalOptions="Center">Введіть посилання на корневий сайт:</Label>
+        <Entry HorizontalOptions="FillAndExpand" x:Name="Link" VerticalOptions="Center"></Entry>
+        <Button HorizontalOptions="FillAndExpand" x:Name="LinkButton" Clicked="Button_Clicked" Text="Зберегти" VerticalOptions="Center"></Button>
+        </StackLayout>
+</ContentPage>
+

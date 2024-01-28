@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Mobile.Views.AddTaskPage">
+    <ContentPage.Content>
+        <StackLayout>
+        <Label FontSize="Medium">Проект:</Label>
+        <Label x:Name="ProjectName"></Label>
+        <Label FontSize="Medium">Тема:</Label>
+            <Entry x:Name="Label"></Entry>
+            <Label FontSize="Medium">Опис:</Label>
+            <Editor x:Name="Description" ></Editor>
+            <Label FontSize="Medium">Відповідальний:</Label>
+            <Entry  x:Name="Executer"></Entry>
+            <ListView x:Name="Users"></ListView>
+            <Label FontSize="Medium">Пріоритет:</Label>
+            <Picker x:Name="Priority" SelectedIndex="0">
+                <Picker.Items>
+                    <x:String>Високий</x:String>
+                    <x:String>Середній</x:String>
+                    <x:String>Низький</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label>Кінцева дата:</Label>
+            <DatePicker x:Name="EndDate"></DatePicker>
+            <Button x:Name="AddTaskButton" Text="Зберегти"></Button>
+</StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,17 @@
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DbLayer.deps.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DbLayer.runtimeconfig.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DbLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DbLayer.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DataLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/bin/Debug/net6.0/DataLayer.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.csproj.AssemblyReference.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.AssemblyInfoInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.AssemblyInfo.cs
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.csproj.CoreCompileInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.csproj.CopyComplete
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/refint/DbLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/DbLayer.genruntimeconfig.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/DbLayer/obj/Debug/net6.0/ref/DbLayer.dll

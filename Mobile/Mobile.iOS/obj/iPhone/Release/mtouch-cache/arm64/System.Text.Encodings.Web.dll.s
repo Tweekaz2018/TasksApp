@@ -1,0 +1,5407 @@
+.subsections_via_symbols
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+.section __DWARF, __debug_abbrev,regular,debug
+Ldebug_abbrev_start:
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 8,1
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
+	.asciz "System.Text.Encodings.Web.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,8,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,8,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,8,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,8,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,8,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,120,30
+	.align 3
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Text_Encodings_Webjit_code_start:
+	.globl _mono_aot_System_Text_Encodings_Webjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+ut_92:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_92
+	.long LDIFF_SYM3
+.text
+ut_93:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_int
+.text
+ut_94:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Length
+.text
+ut_95:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_set_Length_int
+.text
+ut_96:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Capacity
+.text
+ut_97:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int
+.text
+ut_98:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference
+.text
+ut_99:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference_bool
+.text
+ut_100:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Item_int
+.text
+ut_101:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString
+.text
+ut_102:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_RawChars
+.text
+ut_103:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_bool
+.text
+ut_104:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan
+.text
+ut_105:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int
+.text
+ut_106:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int_int
+.text
+ut_107:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_
+.text
+ut_108:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_char_int
+.text
+ut_109:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_string
+.text
+ut_110:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char
+.text
+ut_111:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_string
+.text
+ut_112:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string
+.text
+ut_113:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char_int
+.text
+ut_114:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char__int
+.text
+ut_115:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char
+.text
+ut_116:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSpan_int
+.text
+ut_117:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char
+.text
+ut_118:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int
+.text
+ut_119:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Dispose
+.text
+ut_120:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune__ctor_uint
+.text
+ut_121:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune__ctor_int
+.text
+ut_122:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune__ctor_uint_bool
+.text
+ut_123:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_get_IsAscii
+.text
+ut_124:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_get_IsBmp
+.text
+ut_125:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_op_Equality_System_Text_Rune_System_Text_Rune
+.text
+ut_126:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_op_Inequality_System_Text_Rune_System_Text_Rune
+.text
+ut_127:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune
+.text
+ut_128:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_get_ReplacementChar
+.text
+ut_129:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength
+.text
+ut_130:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_get_Value
+.text
+ut_131:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int_
+.text
+ut_132:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int_
+.text
+ut_133:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_Equals_object
+.text
+ut_134:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_Equals_System_Text_Rune
+.text
+ut_135:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_GetHashCode
+.text
+ut_136:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune_
+.text
+ut_137:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune_
+.text
+ut_138:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int_
+.text
+ut_139:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int_
+.text
+ut_140:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Rune_UnsafeCreate_uint
+.text
+ut_316:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte
+.text
+ut_317:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_TryLookup_System_Text_Rune_byte_
+.text
+ut_318:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_AllowChar_char
+.text
+ut_319:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidChar_char
+.text
+ut_320:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters
+.text
+ut_321:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters
+.text
+ut_322:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCharAllowed_char
+.text
+ut_323:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCodePointAllowed_uint
+.text
+ut_324:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__GetIndexAndOffset_uint_uintptr__int_
+.text
+ut_334:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_IsAllowedAsciiCodePoint_uint
+.text
+ut_335:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_
+.text
+ut_336:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase
+.text
+ut_337:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_TryGetPreescapedData_uint_ulong_
+.text
+	.align 4
+	.no_dead_strip System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int
+System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int:
+.file 1 "<unknown>"
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf90017af
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf94017a0
+bl _p_242
+.word 0xaa0003f9
+.word 0xb9800320
+.word 0xd2800000
+.word 0xf9001bbf
+.word 0xf9400fa0
+.word 0xb9800801
+.word 0xb98023a0
+.word 0x6b01001f
+.word 0x54000063
+.word 0xd2800000
+.word 0x14000002
+.word 0xd2800020
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1ce:
+.text
+	.align 4
+	.no_dead_strip System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int
+System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf90017af
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf94017a0
+bl _p_243
+.word 0xaa0003f9
+.word 0xb9800320
+.word 0xd2800000
+.word 0xf9001bbf
+.word 0xf9400fa0
+.word 0xb9800801
+.word 0xb98023a0
+.word 0x6b01001f
+.word 0x54000063
+.word 0xd2800000
+.word 0x14000002
+.word 0xd2800020
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1cf:
+.text
+ut_468:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__
+.text
+ut_469:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE___int_int
+.text
+ut_470:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_void__int
+.text
+ut_471:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__int
+.text
+ut_472:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Item_int
+.text
+ut_473:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetPinnableReference
+.text
+ut_474:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_Clear
+.text
+ut_475:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_Fill_T_BYTE
+.text
+ut_476:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+.text
+ut_477:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+.text
+ut_478:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
+.text
+ut_479:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToString
+.text
+ut_480:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int
+.text
+ut_481:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int_int
+.text
+ut_482:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToArray
+.text
+ut_483:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Length
+.text
+ut_484:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_IsEmpty
+.text
+ut_485:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_Equals_object
+.text
+ut_486:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetHashCode
+.text
+ut_487:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_T_BYTE__
+.text
+ut_488:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_ArraySegment_1_T_BYTE
+.text
+ut_489:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_BYTE__ctor_T_BYTE_
+.text
+ut_490:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_BYTE_get_Value
+.text
+ut_491:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__
+.text
+ut_492:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR___int_int
+.text
+ut_493:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_void__int
+.text
+ut_494:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__int
+.text
+ut_495:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Item_int
+.text
+ut_496:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetPinnableReference
+.text
+ut_497:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_Clear
+.text
+ut_498:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_Fill_T_CHAR
+.text
+ut_499:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+.text
+ut_500:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+.text
+ut_501:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_Span_1_T_CHAR
+.text
+ut_502:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToString
+.text
+ut_503:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int
+.text
+ut_504:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int_int
+.text
+ut_505:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToArray
+.text
+ut_506:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Length
+.text
+ut_507:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_IsEmpty
+.text
+ut_508:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_Equals_object
+.text
+ut_509:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetHashCode
+.text
+ut_510:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_T_CHAR__
+.text
+ut_511:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_ArraySegment_1_T_CHAR
+.text
+ut_512:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_CHAR__ctor_T_CHAR_
+.text
+ut_513:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_CHAR_get_Value
+.text
+ut_514:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
+.text
+ut_515:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
+.text
+ut_516:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_void__int
+.text
+ut_517:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__int
+.text
+ut_518:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Item_int
+.text
+ut_519:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetPinnableReference
+.text
+ut_520:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+.text
+ut_521:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+.text
+ut_522:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Equality_System_ReadOnlySpan_1_T_BYTE_System_ReadOnlySpan_1_T_BYTE
+.text
+ut_523:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToString
+.text
+ut_524:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int
+.text
+ut_525:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+.text
+ut_526:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToArray
+.text
+ut_527:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Length
+.text
+ut_528:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+.text
+ut_529:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Equals_object
+.text
+ut_530:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetHashCode
+.text
+ut_531:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+.text
+ut_532:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Empty
+.text
+ut_533:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
+.text
+ut_534:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
+.text
+ut_535:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_void__int
+.text
+ut_536:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__int
+.text
+ut_537:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Item_int
+.text
+ut_538:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetPinnableReference
+.text
+ut_539:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+.text
+ut_540:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+.text
+ut_541:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Equality_System_ReadOnlySpan_1_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+.text
+ut_542:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToString
+.text
+ut_543:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int
+.text
+ut_544:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+.text
+ut_545:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToArray
+.text
+ut_546:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Length
+.text
+ut_547:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+.text
+ut_548:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Equals_object
+.text
+ut_549:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetHashCode
+.text
+ut_550:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+.text
+ut_551:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Empty
+.text
+ut_558:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__
+.text
+ut_559:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT___int_int
+.text
+ut_560:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_void__int
+.text
+ut_561:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__int
+.text
+ut_562:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Item_int
+.text
+ut_563:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_GetPinnableReference
+.text
+ut_564:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_Clear
+.text
+ut_565:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_Fill_T_UINT
+.text
+ut_566:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_CopyTo_System_Span_1_T_UINT
+.text
+ut_567:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_TryCopyTo_System_Span_1_T_UINT
+.text
+ut_568:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_Span_1_T_UINT
+.text
+ut_569:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_ToString
+.text
+ut_570:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int
+.text
+ut_571:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int_int
+.text
+ut_572:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_ToArray
+.text
+ut_573:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Length
+.text
+ut_574:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_get_IsEmpty
+.text
+ut_575:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_Equals_object
+.text
+ut_576:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_GetHashCode
+.text
+ut_577:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_T_UINT__
+.text
+ut_578:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_ArraySegment_1_T_UINT
+.text
+ut_579:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_UINT__ctor_T_UINT_
+.text
+ut_580:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ByReference_1_T_UINT_get_Value
+.text
+ut_582:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+.text
+ut_583:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_Dispose
+.text
+ut_584:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_MoveNext
+.text
+ut_585:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_get_Current
+.text
+ut_586:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+.text
+ut_587:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+.text
+ut_594:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_StructureToPtr_object_intptr_bool
+.text
+ut_595:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_PtrToStructure_intptr_object
+.text
+ut_596:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_StructureToPtr_object_intptr_bool
+.text
+ut_597:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_PtrToStructure_intptr_object
+.text
+ut_598:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_StructureToPtr_object_intptr_bool
+.text
+ut_599:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_PtrToStructure_intptr_object
+.text
+ut_600:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_StructureToPtr_object_intptr_bool
+.text
+ut_601:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_PtrToStructure_intptr_object
+.text
+ut_602:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_StructureToPtr_object_intptr_bool
+.text
+ut_603:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_PtrToStructure_intptr_object
+.text
+ut_604:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_StructureToPtr_object_intptr_bool
+.text
+ut_605:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PtrToStructure_intptr_object
+.text
+ut_606:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_StructureToPtr_object_intptr_bool
+.text
+ut_607:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_PtrToStructure_intptr_object
+.text
+ut_608:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_StructureToPtr_object_intptr_bool
+.text
+ut_609:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PtrToStructure_intptr_object
+.text
+ut_610:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_StructureToPtr_object_intptr_bool
+.text
+ut_611:
+add x0, x0, 16
+b _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_PtrToStructure_intptr_object
+.text
+ut_625:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Count
+.text
+ut_626:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Offset
+.text
+ut_627:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Array
+.text
+ut_629:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Count
+.text
+ut_630:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Offset
+.text
+ut_631:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Array
+.text
+ut_634:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_UINT__ctor_T_UINT__int
+.text
+ut_635:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Count
+.text
+ut_636:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Offset
+.text
+ut_637:
+add x0, x0, 16
+b _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Array
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Text_Encodings_Webjit_code_end:
+	.globl _mono_aot_System_Text_Encodings_Webjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Text_Encodings_Web_Microsoft_CodeAnalysis_EmbeddedAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_IsReadOnlyAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_IsByRefLikeAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableAttribute__ctor_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableAttribute__ctor_byte__
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableContextAttribute__ctor_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullablePublicOnlyAttribute__ctor_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NativeIntegerAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_NativeIntegerAttribute__ctor_bool__
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_RefSafetyRulesAttribute__ctor_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_ToBytesBuffer_byte_System_Span_1_byte_int_System_HexConverter_Casing
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_ToCharsBuffer_byte_System_Span_1_char_int_System_HexConverter_Casing
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_EncodeToUtf16_System_ReadOnlySpan_1_byte_System_Span_1_char_System_HexConverter_Casing
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_ToString_System_ReadOnlySpan_1_byte_System_HexConverter_Casing
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_ToCharUpper_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_ToCharLower_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int_
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_FromChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_FromUpperChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_FromLowerChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_IsHexChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_IsHexUpperChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_IsHexLowerChar_int
+.no_dead_strip _System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup
+.no_dead_strip _System_Text_Encodings_Web_System_SR_UsingResourceKeys
+.no_dead_strip _System_Text_Encodings_Web_System_SR_GetResourceString_string
+.no_dead_strip _System_Text_Encodings_Web_System_SR_GetResourceString_string_string
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_string_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_string_object_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_string_object_object_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_string_object__
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object_object_object
+.no_dead_strip _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object__
+.no_dead_strip _System_Text_Encodings_Web_System_SR_get_ResourceManager
+.no_dead_strip _System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar
+.no_dead_strip _System_Text_Encodings_Web_System_SR__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_AllowNullAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DisallowNullAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullWhenAttribute__ctor_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullWhenAttribute_get_ReturnValue
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullWhenAttribute__ctor_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullWhenAttribute_get_ReturnValue
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullIfNotNullAttribute__ctor_string
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullIfNotNullAttribute_get_ParameterName
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnAttribute__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnIfAttribute__ctor_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnIfAttribute_get_ParameterValue
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute__ctor_string
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute__ctor_string__
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute_get_Members
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute__ctor_bool_string
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute__ctor_bool_string__
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute_get_ReturnValue
+.no_dead_strip _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute_get_Members
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute__ctor_string
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_LibraryName
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_EntryPoint
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_EntryPoint_string
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_StringMarshalling
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_StringMarshalling_System_Runtime_InteropServices_StringMarshalling
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_StringMarshallingCustomType
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_StringMarshallingCustomType_System_Type
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_SetLastError
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_SetLastError_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn
+.no_dead_strip _System_Text_Encodings_Web_System_Numerics_BitOperations_Log2_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsBmpCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsHighSurrogateCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsLowSurrogateCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidScalar_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidSupplementaryPlaneScalar_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeDebug_ToHexString_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetPlane_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetScalarFromUtf16SurrogatePair_uint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SurrogatesFromSupplementaryPlaneScalar_uint_char__char_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf8SequenceLength_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsAsciiCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsBmpCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsHighSurrogateCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsInRangeInclusive_uint_uint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsLowSurrogateCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsSurrogateCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsValidCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsValidUnicodeScalar_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_set_Length_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Capacity
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_RawChars
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_char_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_string
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_string
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char__int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSpan_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Dispose
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune__ctor_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune__ctor_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune__ctor_uint_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_get_IsAscii
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_get_IsBmp
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_op_Equality_System_Text_Rune_System_Text_Rune
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_op_Inequality_System_Text_Rune_System_Text_Rune
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_get_ReplacementChar
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_get_Value
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_Equals_System_Text_Rune
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Rune_UnsafeCreate_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf16SurrogatePairFromAstralScalarValue_uint_char__char_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_IsSupplementaryCodePoint_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_get_FirstCodePoint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_set_FirstCodePoint_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_set_Length_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_None
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Latin1Supplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_IpaExtensions
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SpacingModifierLetters
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarks
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GreekandCoptic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cyrillic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Armenian
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hebrew
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Arabic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Syriac
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Thaana
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NKo
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Samaritan
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Mandaic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SyriacSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicExtendedB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Devanagari
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bengali
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Gurmukhi
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Gujarati
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Oriya
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tamil
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Telugu
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Kannada
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Malayalam
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Sinhala
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Thai
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lao
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tibetan
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Myanmar
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Georgian
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamo
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Ethiopic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cherokee
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_UnifiedCanadianAboriginalSyllabics
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Ogham
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Runic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tagalog
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hanunoo
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Buhid
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tagbanwa
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Khmer
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Mongolian
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_UnifiedCanadianAboriginalSyllabicsExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Limbu
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiLe
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NewTaiLue
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KhmerSymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Buginese
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiTham
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Balinese
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Sundanese
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Batak
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lepcha
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_OlChiki
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedC
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeorgianExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SundaneseSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VedicExtensions
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_PhoneticExtensions
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_PhoneticExtensionsSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedAdditional
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GreekExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeneralPunctuation
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SuperscriptsandSubscripts
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CurrencySymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksforSymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LetterlikeSymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NumberForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Arrows
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MathematicalOperators
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousTechnical
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ControlPictures
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_OpticalCharacterRecognition
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EnclosedAlphanumerics
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BoxDrawing
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BlockElements
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeometricShapes
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousSymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Dingbats
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousMathematicalSymbolsA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalArrowsA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BraillePatterns
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalArrowsB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousMathematicalSymbolsB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalMathematicalOperators
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousSymbolsandArrows
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Glagolitic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedC
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Coptic
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeorgianSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tifinagh
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalPunctuation
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkRadicalsSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KangxiRadicals
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_IdeographicDescriptionCharacters
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkSymbolsandPunctuation
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hiragana
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Katakana
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bopomofo
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulCompatibilityJamo
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Kanbun
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BopomofoExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkStrokes
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KatakanaPhoneticExtensions
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EnclosedCjkLettersandMonths
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibility
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkUnifiedIdeographsExtensionA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YijingHexagramSymbols
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkUnifiedIdeographs
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YiSyllables
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YiRadicals
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lisu
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Vai
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bamum
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ModifierToneLetters
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedD
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SylotiNagri
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CommonIndicNumberForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Phagspa
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Saurashtra
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_DevanagariExtended
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KayahLi
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Rejang
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamoExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Javanese
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MyanmarExtendedB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cham
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MyanmarExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiViet
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MeeteiMayekExtensions
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicExtendedA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedE
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CherokeeSupplement
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MeeteiMayek
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulSyllables
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamoExtendedB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibilityIdeographs
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_AlphabeticPresentationForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicPresentationFormsA
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VariationSelectors
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VerticalForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningHalfMarks
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibilityForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SmallFormVariants
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicPresentationFormsB
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HalfwidthandFullwidthForms
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Specials
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_TryLookup_System_Text_Rune_byte_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_AllowChar_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidChar_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCharAllowed_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCodePointAllowed_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__GetIndexAndOffset_uint_uintptr__int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_IsScalarValueAllowed_System_Text_Rune
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__AssertThisNotNull
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_IsAllowedAsciiCodePoint_uint
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_TryGetPreescapedData_uint_ulong_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_get_MaxOutputCharactersPerInputCharacter
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncode_char__int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_WillEncode_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_get_MaxOutputCharactersPerInputCharacter
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncode_char__int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_WillEncode_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_REF_System_ReadOnlySpan_1_T_REF_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_REF_System_Span_1_T_REF_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte_byte_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char_char_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteUInt64LittleEndian_System_Span_1_byte_int_ulong
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_AreValidIndexAndLength_int_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_ScalarEscaperBase__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_get_Default
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_Create_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_get_MaxOutputCharactersPerInputCharacter
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncode_char__int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_WillEncode_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_get_Default
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_get_UnsafeRelaxedJsonEscaping
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_Create_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalar_uint_System_Span_1_char_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_string
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_string
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_string_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_char___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryCopyCharacters_string_System_Span_1_char_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryWriteScalarAsChar_int_System_Span_1_char_int_
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCharacter_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCharacters_char__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCodePoints_System_Collections_Generic_IEnumerable_1_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowRange_System_Text_Unicode_UnicodeRange
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowRanges_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_Clear
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidCharacter_char
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidCharacters_char__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidRange_System_Text_Unicode_UnicodeRange
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidRanges_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePoints
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_IDisposable_Dispose
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_MoveNext
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerator_System_Int32_get_Current
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerator_Reset
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerator_get_Current
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerable_GetEnumerator
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_get_Default
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_Create_System_Text_Unicode_UnicodeRange__
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_CHAR_System_ReadOnlySpan_1_T_CHAR_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_CHAR_System_Span_1_T_CHAR_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_BYTE_System_ReadOnlySpan_1_T_BYTE_int
+.no_dead_strip _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_BYTE_System_Span_1_T_BYTE_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_void__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_Clear
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_Fill_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToArray
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_IsEmpty
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_T_BYTE__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_ArraySegment_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_BYTE__ctor_T_BYTE_
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_BYTE_get_Value
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_void__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_Clear
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_Fill_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToArray
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_IsEmpty
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_T_CHAR__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_ArraySegment_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_CHAR__ctor_T_CHAR_
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_CHAR_get_Value
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_void__int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Equality_System_ReadOnlySpan_1_T_BYTE_System_ReadOnlySpan_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToArray
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Empty
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_void__int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Equality_System_ReadOnlySpan_1_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToArray
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Empty
+.no_dead_strip _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR_get_Shared
+.no_dead_strip _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR__cctor
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_void__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Item_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_GetPinnableReference
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_Clear
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_Fill_T_UINT
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_CopyTo_System_Span_1_T_UINT
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_TryCopyTo_System_Span_1_T_UINT
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_Span_1_T_UINT
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_ToString
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_ToArray
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Length
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_get_IsEmpty
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_Equals_object
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_GetHashCode
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_T_UINT__
+.no_dead_strip _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_ArraySegment_1_T_UINT
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_UINT__ctor_T_UINT_
+.no_dead_strip _System_Text_Encodings_Web_System_ByReference_1_T_UINT_get_Value
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_Dispose
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_MoveNext
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_get_Current
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__ctor_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_System_Runtime_CompilerServices_IStrongBox_get_Value
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_System_Runtime_CompilerServices_IStrongBox_set_Value_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PtrToStructure_intptr_object
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_PtrToStructure_intptr_object
+.no_dead_strip _mono_aot_System_Text_Encodings_Web_init_method
+.no_dead_strip _mono_aot_System_Text_Encodings_Web_init_method_gshared_mrgctx
+.no_dead_strip _mono_aot_System_Text_Encodings_Web_init_method_gshared_vtable
+.no_dead_strip _mono_aot_System_Text_Encodings_Web_init_method_gshared_this
+.no_dead_strip _mono_aot_System_Text_Encodings_Web_icall_cold_wrapper_265
+.no_dead_strip _System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_T_CHAR_T_CHAR__
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_BYTE_System_ReadOnlySpan_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_Span_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_Read_T_UINT_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_BYTE_System_Span_1_T_BYTE
+.no_dead_strip _System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_T_CHAR_T_CHAR___int_int
+.no_dead_strip _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+.no_dead_strip _System_Text_Encodings_Web_System_Buffer_Memmove_T_BYTE_T_BYTE__T_BYTE__ulong
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Count
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Offset
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Array
+.no_dead_strip _System_Text_Encodings_Web_System_Buffer_Memmove_T_CHAR_T_CHAR__T_CHAR__ulong
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Count
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Offset
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Array
+.no_dead_strip _System_Text_Encodings_Web_System_Buffers_TlsOverPerCoreLockedStacksArrayPool_1_T_CHAR__ctor
+.no_dead_strip _System_Text_Encodings_Web_System_Buffer_Memmove_T_UINT_T_UINT__T_UINT__ulong
+.no_dead_strip _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_UINT__ctor_T_UINT__int
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Count
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Offset
+.no_dead_strip _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Array
+.no_dead_strip _System_Text_Encodings_Web_System_Array_InternalArray__get_Item_T_INT_int
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Text_Encodings_Webmethod_addresses:
+	.globl _mono_aot_System_Text_Encodings_Webmethod_addresses
+	.no_dead_strip method_addresses
+bl _System_Text_Encodings_Web_Microsoft_CodeAnalysis_EmbeddedAttribute__ctor
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_IsReadOnlyAttribute__ctor
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_IsByRefLikeAttribute__ctor
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableAttribute__ctor_byte
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableAttribute__ctor_byte__
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullableContextAttribute__ctor_byte
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NullablePublicOnlyAttribute__ctor_bool
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NativeIntegerAttribute__ctor
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_NativeIntegerAttribute__ctor_bool__
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_RefSafetyRulesAttribute__ctor_int
+bl _System_Text_Encodings_Web_System_HexConverter_ToBytesBuffer_byte_System_Span_1_byte_int_System_HexConverter_Casing
+bl _System_Text_Encodings_Web_System_HexConverter_ToCharsBuffer_byte_System_Span_1_char_int_System_HexConverter_Casing
+bl _System_Text_Encodings_Web_System_HexConverter_EncodeToUtf16_System_ReadOnlySpan_1_byte_System_Span_1_char_System_HexConverter_Casing
+bl _System_Text_Encodings_Web_System_HexConverter_ToString_System_ReadOnlySpan_1_byte_System_HexConverter_Casing
+bl _System_Text_Encodings_Web_System_HexConverter_ToCharUpper_int
+bl _System_Text_Encodings_Web_System_HexConverter_ToCharLower_int
+bl _System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int_
+bl _System_Text_Encodings_Web_System_HexConverter_FromChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_FromUpperChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_FromLowerChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_IsHexChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_IsHexUpperChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_IsHexLowerChar_int
+bl _System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup
+bl _System_Text_Encodings_Web_System_SR_UsingResourceKeys
+bl _System_Text_Encodings_Web_System_SR_GetResourceString_string
+bl _System_Text_Encodings_Web_System_SR_GetResourceString_string_string
+bl _System_Text_Encodings_Web_System_SR_Format_string_object
+bl _System_Text_Encodings_Web_System_SR_Format_string_object_object
+bl _System_Text_Encodings_Web_System_SR_Format_string_object_object_object
+bl _System_Text_Encodings_Web_System_SR_Format_string_object__
+bl _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object
+bl _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object_object
+bl _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object_object_object
+bl _System_Text_Encodings_Web_System_SR_Format_System_IFormatProvider_string_object__
+bl _System_Text_Encodings_Web_System_SR_get_ResourceManager
+bl _System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar
+bl _System_Text_Encodings_Web_System_SR__cctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_AllowNullAttribute__ctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DisallowNullAttribute__ctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullAttribute__ctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullAttribute__ctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullWhenAttribute__ctor_bool
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MaybeNullWhenAttribute_get_ReturnValue
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullWhenAttribute__ctor_bool
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullWhenAttribute_get_ReturnValue
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullIfNotNullAttribute__ctor_string
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_NotNullIfNotNullAttribute_get_ParameterName
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnAttribute__ctor
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnIfAttribute__ctor_bool
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_DoesNotReturnIfAttribute_get_ParameterValue
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute__ctor_string
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute__ctor_string__
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute_get_Members
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute__ctor_bool_string
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute__ctor_bool_string__
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute_get_ReturnValue
+bl _System_Text_Encodings_Web_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute_get_Members
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute__ctor_string
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_LibraryName
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_EntryPoint
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_EntryPoint_string
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_StringMarshalling
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_StringMarshalling_System_Runtime_InteropServices_StringMarshalling
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_StringMarshallingCustomType
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_StringMarshallingCustomType_System_Type
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_get_SetLastError
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_LibraryImportAttribute_set_SetLastError_bool
+bl _System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn
+bl _System_Text_Encodings_Web_System_Numerics_BitOperations_Log2_uint
+bl _System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsBmpCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsHighSurrogateCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsLowSurrogateCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidScalar_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_AssertIsValidSupplementaryPlaneScalar_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeDebug_ToHexString_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetPlane_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetScalarFromUtf16SurrogatePair_uint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SurrogatesFromSupplementaryPlaneScalar_uint_char__char_
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf8SequenceLength_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsAsciiCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsBmpCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsHighSurrogateCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsInRangeInclusive_uint_uint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsLowSurrogateCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsSurrogateCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsValidCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_UnicodeUtility_IsValidUnicodeScalar_uint
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Length
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_set_Length_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Capacity
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GetPinnableReference_bool
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_Item_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_get_RawChars
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_bool
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AsSpan_int_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_char_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Insert_int_string
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_string
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_char__int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSpan_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int
+bl _System_Text_Encodings_Web_System_Text_ValueStringBuilder_Dispose
+bl _System_Text_Encodings_Web_System_Text_Rune__ctor_uint
+bl _System_Text_Encodings_Web_System_Text_Rune__ctor_int
+bl _System_Text_Encodings_Web_System_Text_Rune__ctor_uint_bool
+bl _System_Text_Encodings_Web_System_Text_Rune_get_IsAscii
+bl _System_Text_Encodings_Web_System_Text_Rune_get_IsBmp
+bl _System_Text_Encodings_Web_System_Text_Rune_op_Equality_System_Text_Rune_System_Text_Rune
+bl _System_Text_Encodings_Web_System_Text_Rune_op_Inequality_System_Text_Rune_System_Text_Rune
+bl _System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune
+bl _System_Text_Encodings_Web_System_Text_Rune_get_ReplacementChar
+bl _System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength
+bl _System_Text_Encodings_Web_System_Text_Rune_get_Value
+bl _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int_
+bl _System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int_
+bl _System_Text_Encodings_Web_System_Text_Rune_Equals_object
+bl _System_Text_Encodings_Web_System_Text_Rune_Equals_System_Text_Rune
+bl _System_Text_Encodings_Web_System_Text_Rune_GetHashCode
+bl _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune_
+bl _System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune_
+bl _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int_
+bl _System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int_
+bl _System_Text_Encodings_Web_System_Text_Rune_UnsafeCreate_uint
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf16SurrogatePairFromAstralScalarValue_uint_char__char_
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_IsSupplementaryCodePoint_int
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_get_FirstCodePoint
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_set_FirstCodePoint_int
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_get_Length
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_set_Length_int
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_None
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange_
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Latin1Supplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_IpaExtensions
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SpacingModifierLetters
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarks
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GreekandCoptic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cyrillic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Armenian
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hebrew
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Arabic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Syriac
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Thaana
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NKo
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Samaritan
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Mandaic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SyriacSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicExtendedB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Devanagari
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bengali
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Gurmukhi
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Gujarati
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Oriya
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tamil
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Telugu
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Kannada
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Malayalam
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Sinhala
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Thai
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lao
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tibetan
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Myanmar
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Georgian
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamo
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Ethiopic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cherokee
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_UnifiedCanadianAboriginalSyllabics
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Ogham
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Runic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tagalog
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hanunoo
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Buhid
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tagbanwa
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Khmer
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Mongolian
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_UnifiedCanadianAboriginalSyllabicsExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Limbu
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiLe
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NewTaiLue
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KhmerSymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Buginese
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiTham
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Balinese
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Sundanese
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Batak
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lepcha
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_OlChiki
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedC
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeorgianExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SundaneseSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VedicExtensions
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_PhoneticExtensions
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_PhoneticExtensionsSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedAdditional
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GreekExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeneralPunctuation
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SuperscriptsandSubscripts
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CurrencySymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningDiacriticalMarksforSymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LetterlikeSymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_NumberForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Arrows
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MathematicalOperators
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousTechnical
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ControlPictures
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_OpticalCharacterRecognition
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EnclosedAlphanumerics
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BoxDrawing
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BlockElements
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeometricShapes
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousSymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Dingbats
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousMathematicalSymbolsA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalArrowsA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BraillePatterns
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalArrowsB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousMathematicalSymbolsB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalMathematicalOperators
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MiscellaneousSymbolsandArrows
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Glagolitic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedC
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Coptic
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_GeorgianSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Tifinagh
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SupplementalPunctuation
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkRadicalsSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KangxiRadicals
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_IdeographicDescriptionCharacters
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkSymbolsandPunctuation
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Hiragana
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Katakana
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bopomofo
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulCompatibilityJamo
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Kanbun
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BopomofoExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkStrokes
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KatakanaPhoneticExtensions
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EnclosedCjkLettersandMonths
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibility
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkUnifiedIdeographsExtensionA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YijingHexagramSymbols
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkUnifiedIdeographs
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YiSyllables
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_YiRadicals
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Lisu
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Vai
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CyrillicExtendedB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Bamum
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ModifierToneLetters
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedD
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SylotiNagri
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CommonIndicNumberForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Phagspa
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Saurashtra
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_DevanagariExtended
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_KayahLi
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Rejang
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamoExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Javanese
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MyanmarExtendedB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Cham
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MyanmarExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_TaiViet
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MeeteiMayekExtensions
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_EthiopicExtendedA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_LatinExtendedE
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CherokeeSupplement
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_MeeteiMayek
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulSyllables
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HangulJamoExtendedB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibilityIdeographs
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_AlphabeticPresentationForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicPresentationFormsA
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VariationSelectors
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_VerticalForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CombiningHalfMarks
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_CjkCompatibilityForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_SmallFormVariants
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_ArabicPresentationFormsB
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_HalfwidthandFullwidthForms
+bl _System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_Specials
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_TryLookup_System_Text_Rune_byte_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_AllowChar_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidChar_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCharAllowed_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_IsCodePointAllowed_uint
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__GetIndexAndOffset_uint_uintptr__int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_IsScalarValueAllowed_System_Text_Rune
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__AssertThisNotNull
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_IsAllowedAsciiCodePoint_uint
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_TryGetPreescapedData_uint_ulong_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_get_MaxOutputCharactersPerInputCharacter
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncode_char__int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_WillEncode_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder_EscaperImplementation__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_get_MaxOutputCharactersPerInputCharacter
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncode_char__int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_WillEncode_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_REF_System_ReadOnlySpan_1_T_REF_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_REF_System_Span_1_T_REF_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteBytes_System_Span_1_byte_byte_byte_byte_byte_byte_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteChars_System_Span_1_char_char_char_char_char_char_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_TryWriteUInt64LittleEndian_System_Span_1_byte_int_ulong
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_AreValidIndexAndLength_int_int_int
+bl method_addresses
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_ScalarEscaperBase__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_get_Default
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder_Create_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_HtmlEncoder__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_get_MaxOutputCharactersPerInputCharacter
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncode_char__int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_WillEncode_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation_EncodeUtf8_System_Text_Rune_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation_EncodeUtf16_System_Text_Rune_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__cctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_get_Default
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_get_UnsafeRelaxedJsonEscaping
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder_Create_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_JavaScriptEncoder__ctor
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalar_uint_System_Span_1_char_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int_
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_string
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_string
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_string_int_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_IO_TextWriter_char___int_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeUtf8Core_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_FindFirstCharacterToEncode_System_ReadOnlySpan_1_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_FindFirstCharacterToEncodeUtf8_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryCopyCharacters_string_System_Span_1_char_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryWriteScalarAsChar_int_System_Span_1_char_int_
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCharacter_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCharacters_char__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowCodePoints_System_Collections_Generic_IEnumerable_1_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowRange_System_Text_Unicode_UnicodeRange
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_AllowRanges_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_Clear
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidCharacter_char
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidCharacters_char__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidRange_System_Text_Unicode_UnicodeRange
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_ForbidRanges_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePoints
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_IDisposable_Dispose
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_MoveNext
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerator_System_Int32_get_Current
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerator_Reset
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerator_get_Current
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_IEnumerable_GetEnumerator
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_get_Default
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_Create_System_Text_Encodings_Web_TextEncoderSettings
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder_Create_System_Text_Unicode_UnicodeRange__
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_UrlEncoder__ctor
+bl _System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int
+bl method_addresses
+bl System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int
+bl System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_CHAR_System_ReadOnlySpan_1_T_CHAR_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_CHAR_System_Span_1_T_CHAR_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_BYTE_System_ReadOnlySpan_1_T_BYTE_int
+bl _System_Text_Encodings_Web_System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_BYTE_System_Span_1_T_BYTE_int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE___int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_void__int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE__ctor_T_BYTE__int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Item_int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetPinnableReference
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_Clear
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_Fill_T_BYTE
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToString
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_Slice_int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_ToArray
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_Length
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_get_IsEmpty
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_Equals_object
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_GetHashCode
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_T_BYTE__
+bl _System_Text_Encodings_Web_System_Span_1_T_BYTE_op_Implicit_System_ArraySegment_1_T_BYTE
+bl _System_Text_Encodings_Web_System_ByReference_1_T_BYTE__ctor_T_BYTE_
+bl _System_Text_Encodings_Web_System_ByReference_1_T_BYTE_get_Value
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR___int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_void__int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR__ctor_T_CHAR__int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Item_int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetPinnableReference
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_Clear
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_Fill_T_CHAR
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToString
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_Slice_int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_ToArray
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_Length
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_get_IsEmpty
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_Equals_object
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_GetHashCode
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_T_CHAR__
+bl _System_Text_Encodings_Web_System_Span_1_T_CHAR_op_Implicit_System_ArraySegment_1_T_CHAR
+bl _System_Text_Encodings_Web_System_ByReference_1_T_CHAR__ctor_T_CHAR_
+bl _System_Text_Encodings_Web_System_ByReference_1_T_CHAR_get_Value
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_void__int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Item_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetPinnableReference
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Equality_System_ReadOnlySpan_1_T_BYTE_System_ReadOnlySpan_1_T_BYTE
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToString
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_ToArray
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Length
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_Equals_object
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_GetHashCode
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_BYTE_get_Empty
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_void__int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Item_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetPinnableReference
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Equality_System_ReadOnlySpan_1_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToString
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_ToArray
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Length
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_Equals_object
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_GetHashCode
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_CHAR_get_Empty
+bl _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR_get_Shared
+bl method_addresses
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR__ctor
+bl _System_Text_Encodings_Web_System_Buffers_ArrayPool_1_T_CHAR__cctor
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT___int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_void__int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT__ctor_T_UINT__int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Item_int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_GetPinnableReference
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_Clear
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_Fill_T_UINT
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_CopyTo_System_Span_1_T_UINT
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_TryCopyTo_System_Span_1_T_UINT
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_Span_1_T_UINT
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_ToString
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_Slice_int_int
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_ToArray
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_get_Length
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_get_IsEmpty
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_Equals_object
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_GetHashCode
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_T_UINT__
+bl _System_Text_Encodings_Web_System_Span_1_T_UINT_op_Implicit_System_ArraySegment_1_T_UINT
+bl _System_Text_Encodings_Web_System_ByReference_1_T_UINT__ctor_T_UINT_
+bl _System_Text_Encodings_Web_System_ByReference_1_T_UINT_get_Value
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_Dispose
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_MoveNext
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_get_Current
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+bl _System_Text_Encodings_Web_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+bl _System_Text_Encodings_Web_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+bl method_addresses
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__ctor
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__ctor_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_System_Runtime_CompilerServices_IStrongBox_get_Value
+bl _System_Text_Encodings_Web_System_Runtime_CompilerServices_StrongBox_1_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_System_Runtime_CompilerServices_IStrongBox_set_Value_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Rune_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AsciiByteMap__Buffere__FixedBuffer_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__Bitmape__FixedBuffer_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints__AsBytese__FixedBuffer_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PtrToStructure_intptr_object
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_StructureToPtr_object_intptr_bool
+bl _System_Text_Encodings_Web_wrapper_other_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData__Datae__FixedBuffer_PtrToStructure_intptr_object
+bl _mono_aot_System_Text_Encodings_Web_init_method
+bl _mono_aot_System_Text_Encodings_Web_init_method_gshared_mrgctx
+bl _mono_aot_System_Text_Encodings_Web_init_method_gshared_vtable
+bl _mono_aot_System_Text_Encodings_Web_init_method_gshared_this
+bl _mono_aot_System_Text_Encodings_Web_icall_cold_wrapper_265
+bl _System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_T_CHAR_T_CHAR__
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_BYTE_System_ReadOnlySpan_1_T_BYTE
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_Span_1_T_CHAR
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_Read_T_UINT_System_ReadOnlySpan_1_byte
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_BYTE_System_Span_1_T_BYTE
+bl _System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_T_CHAR_T_CHAR___int_int
+bl _System_Text_Encodings_Web_System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+bl _System_Text_Encodings_Web_System_Buffer_Memmove_T_BYTE_T_BYTE__T_BYTE__ulong
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Count
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Offset
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_BYTE_get_Array
+bl _System_Text_Encodings_Web_System_Buffer_Memmove_T_CHAR_T_CHAR__T_CHAR__ulong
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Count
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Offset
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_CHAR_get_Array
+bl _System_Text_Encodings_Web_System_Buffers_TlsOverPerCoreLockedStacksArrayPool_1_T_CHAR__ctor
+bl _System_Text_Encodings_Web_System_Buffer_Memmove_T_UINT_T_UINT__T_UINT__ulong
+bl _System_Text_Encodings_Web_System_ReadOnlySpan_1_T_UINT__ctor_T_UINT__int
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Count
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Offset
+bl _System_Text_Encodings_Web_System_ArraySegment_1_T_UINT_get_Array
+bl _System_Text_Encodings_Web_System_Array_InternalArray__get_Item_T_INT_int
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Text_Encodings_Webunbox_trampolines:
+	.globl _mono_aot_System_Text_Encodings_Webunbox_trampolines
+
+	.long 92,93,94,95,96,97,98,99
+	.long 100,101,102,103,104,105,106,107
+	.long 108,109,110,111,112,113,114,115
+	.long 116,117,118,119,120,121,122,123
+	.long 124,125,126,127,128,129,130,131
+	.long 132,133,134,135,136,137,138,139
+	.long 140,316,317,318,319,320,321,322
+	.long 323,324,334,335,336,337,468,469
+	.long 470,471,472,473,474,475,476,477
+	.long 478,479,480,481,482,483,484,485
+	.long 486,487,488,489,490,491,492,493
+	.long 494,495,496,497,498,499,500,501
+	.long 502,503,504,505,506,507,508,509
+	.long 510,511,512,513,514,515,516,517
+	.long 518,519,520,521,522,523,524,525
+	.long 526,527,528,529,530,531,532,533
+	.long 534,535,536,537,538,539,540,541
+	.long 542,543,544,545,546,547,548,549
+	.long 550,551,558,559,560,561,562,563
+	.long 564,565,566,567,568,569,570,571
+	.long 572,573,574,575,576,577,578,579
+	.long 580,582,583,584,585,586,587,594
+	.long 595,596,597,598,599,600,601,602
+	.long 603,604,605,606,607,608,609,610
+	.long 611,625,626,627,629,630,631,634
+	.long 635,636,637
+unbox_trampolines_end:
+_mono_aot_System_Text_Encodings_Webunbox_trampolines_end:
+	.globl _mono_aot_System_Text_Encodings_Webunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Text_Encodings_Webunbox_trampoline_addresses:
+	.globl _mono_aot_System_Text_Encodings_Webunbox_trampoline_addresses
+bl ut_92
+bl ut_93
+bl ut_94
+bl ut_95
+bl ut_96
+bl ut_97
+bl ut_98
+bl ut_99
+bl ut_100
+bl ut_101
+bl ut_102
+bl ut_103
+bl ut_104
+bl ut_105
+bl ut_106
+bl ut_107
+bl ut_108
+bl ut_109
+bl ut_110
+bl ut_111
+bl ut_112
+bl ut_113
+bl ut_114
+bl ut_115
+bl ut_116
+bl ut_117
+bl ut_118
+bl ut_119
+bl ut_120
+bl ut_121
+bl ut_122
+bl ut_123
+bl ut_124
+bl ut_125
+bl ut_126
+bl ut_127
+bl ut_128
+bl ut_129
+bl ut_130
+bl ut_131
+bl ut_132
+bl ut_133
+bl ut_134
+bl ut_135
+bl ut_136
+bl ut_137
+bl ut_138
+bl ut_139
+bl ut_140
+bl ut_316
+bl ut_317
+bl ut_318
+bl ut_319
+bl ut_320
+bl ut_321
+bl ut_322
+bl ut_323
+bl ut_324
+bl ut_334
+bl ut_335
+bl ut_336
+bl ut_337
+bl ut_468
+bl ut_469
+bl ut_470
+bl ut_471
+bl ut_472
+bl ut_473
+bl ut_474
+bl ut_475
+bl ut_476
+bl ut_477
+bl ut_478
+bl ut_479
+bl ut_480
+bl ut_481
+bl ut_482
+bl ut_483
+bl ut_484
+bl ut_485
+bl ut_486
+bl ut_487
+bl ut_488
+bl ut_489
+bl ut_490
+bl ut_491
+bl ut_492
+bl ut_493
+bl ut_494
+bl ut_495
+bl ut_496
+bl ut_497
+bl ut_498
+bl ut_499
+bl ut_500
+bl ut_501
+bl ut_502
+bl ut_503
+bl ut_504
+bl ut_505
+bl ut_506
+bl ut_507
+bl ut_508
+bl ut_509
+bl ut_510
+bl ut_511
+bl ut_512
+bl ut_513
+bl ut_514
+bl ut_515
+bl ut_516
+bl ut_517
+bl ut_518
+bl ut_519
+bl ut_520
+bl ut_521
+bl ut_522
+bl ut_523
+bl ut_524
+bl ut_525
+bl ut_526
+bl ut_527
+bl ut_528
+bl ut_529
+bl ut_530
+bl ut_531
+bl ut_532
+bl ut_533
+bl ut_534
+bl ut_535
+bl ut_536
+bl ut_537
+bl ut_538
+bl ut_539
+bl ut_540
+bl ut_541
+bl ut_542
+bl ut_543
+bl ut_544
+bl ut_545
+bl ut_546
+bl ut_547
+bl ut_548
+bl ut_549
+bl ut_550
+bl ut_551
+bl ut_558
+bl ut_559
+bl ut_560
+bl ut_561
+bl ut_562
+bl ut_563
+bl ut_564
+bl ut_565
+bl ut_566
+bl ut_567
+bl ut_568
+bl ut_569
+bl ut_570
+bl ut_571
+bl ut_572
+bl ut_573
+bl ut_574
+bl ut_575
+bl ut_576
+bl ut_577
+bl ut_578
+bl ut_579
+bl ut_580
+bl ut_582
+bl ut_583
+bl ut_584
+bl ut_585
+bl ut_586
+bl ut_587
+bl ut_594
+bl ut_595
+bl ut_596
+bl ut_597
+bl ut_598
+bl ut_599
+bl ut_600
+bl ut_601
+bl ut_602
+bl ut_603
+bl ut_604
+bl ut_605
+bl ut_606
+bl ut_607
+bl ut_608
+bl ut_609
+bl ut_610
+bl ut_611
+bl ut_625
+bl ut_626
+bl ut_627
+bl ut_629
+bl ut_630
+bl ut_631
+bl ut_634
+bl ut_635
+bl ut_636
+bl ut_637
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Text_Encodings_Webunwind_info:
+	.globl _mono_aot_System_Text_Encodings_Webunwind_info
+
+	.byte 0,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Text_Encodings_Webplt:
+	.globl _mono_aot_System_Text_Encodings_Webplt
+mono_aot_System_Text_Encodings_Web_plt:
+_p_1_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocVector_intptr_intptr_llvm:
+	.globl _p_1_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocVector_intptr_intptr_llvm
+.private_extern _p_1_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocVector_intptr_intptr_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocVector_intptr_intptr:
+_p_1:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 5036
+_p_2_plt_System_Text_Encodings_Web__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_2_plt_System_Text_Encodings_Web__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_2_plt_System_Text_Encodings_Web__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_System_Text_Encodings_Web__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_2:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 5044
+_p_3_plt_System_Text_Encodings_Web__jit_icall___emul_lmul_ovf_un_llvm:
+	.globl _p_3_plt_System_Text_Encodings_Web__jit_icall___emul_lmul_ovf_un_llvm
+.private_extern _p_3_plt_System_Text_Encodings_Web__jit_icall___emul_lmul_ovf_un_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall___emul_lmul_ovf_un
+plt_System_Text_Encodings_Web__jit_icall___emul_lmul_ovf_un:
+_p_3:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 5047
+_p_4_plt_System_Text_Encodings_Web_System_Span_1_char__ctor_void__int_llvm:
+	.globl _p_4_plt_System_Text_Encodings_Web_System_Span_1_char__ctor_void__int_llvm
+.private_extern _p_4_plt_System_Text_Encodings_Web_System_Span_1_char__ctor_void__int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char__ctor_void__int
+plt_System_Text_Encodings_Web_System_Span_1_char__ctor_void__int:
+_p_4:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 5049
+_p_5_plt_System_Text_Encodings_Web_System_Span_1_char_ToString_llvm:
+	.globl _p_5_plt_System_Text_Encodings_Web_System_Span_1_char_ToString_llvm
+.private_extern _p_5_plt_System_Text_Encodings_Web_System_Span_1_char_ToString_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_ToString
+plt_System_Text_Encodings_Web_System_Span_1_char_ToString:
+_p_5:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 5065
+_p_6_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___llvm:
+	.globl _p_6_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___llvm
+.private_extern _p_6_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char__
+plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char__:
+_p_6:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 5082
+_p_7_plt_System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int__llvm:
+	.globl _p_7_plt_System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int__llvm
+.private_extern _p_7_plt_System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int_
+plt_System_Text_Encodings_Web_System_HexConverter_TryDecodeFromUtf16_System_ReadOnlySpan_1_char_System_Span_1_byte_int_:
+_p_7:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 5094
+_p_8_plt_System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup_llvm:
+	.globl _p_8_plt_System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup_llvm
+.private_extern _p_8_plt_System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup
+plt_System_Text_Encodings_Web_System_HexConverter_get_CharToHexLookup:
+_p_8:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 5096
+_p_9_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte__ctor_void__int_llvm:
+	.globl _p_9_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte__ctor_void__int_llvm
+.private_extern _p_9_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte__ctor_void__int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte__ctor_void__int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte__ctor_void__int:
+_p_9:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 5098
+_p_10_plt_System_Text_Encodings_Web_System_SR_get_ResourceManager_llvm:
+	.globl _p_10_plt_System_Text_Encodings_Web_System_SR_get_ResourceManager_llvm
+.private_extern _p_10_plt_System_Text_Encodings_Web_System_SR_get_ResourceManager_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_SR_get_ResourceManager
+plt_System_Text_Encodings_Web_System_SR_get_ResourceManager:
+_p_10:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 5109
+_p_11_plt_System_Text_Encodings_Web_System_Resources_ResourceManager_GetString_string_llvm:
+	.globl _p_11_plt_System_Text_Encodings_Web_System_Resources_ResourceManager_GetString_string_llvm
+.private_extern _p_11_plt_System_Text_Encodings_Web_System_Resources_ResourceManager_GetString_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Resources_ResourceManager_GetString_string
+plt_System_Text_Encodings_Web_System_Resources_ResourceManager_GetString_string:
+_p_11:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 5111
+_p_12_plt_System_Text_Encodings_Web__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_12_plt_System_Text_Encodings_Web__jit_icall_mono_generic_class_init_llvm
+.private_extern _p_12_plt_System_Text_Encodings_Web__jit_icall_mono_generic_class_init_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_generic_class_init
+plt_System_Text_Encodings_Web__jit_icall_mono_generic_class_init:
+_p_12:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 5116
+_p_13_plt_System_Text_Encodings_Web__jit_icall_mono_thread_get_undeniable_exception_llvm:
+	.globl _p_13_plt_System_Text_Encodings_Web__jit_icall_mono_thread_get_undeniable_exception_llvm
+.private_extern _p_13_plt_System_Text_Encodings_Web__jit_icall_mono_thread_get_undeniable_exception_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_thread_get_undeniable_exception
+plt_System_Text_Encodings_Web__jit_icall_mono_thread_get_undeniable_exception:
+_p_13:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 5119
+_p_14_plt_System_Text_Encodings_Web__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_14_plt_System_Text_Encodings_Web__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_14_plt_System_Text_Encodings_Web__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_arch_throw_exception
+plt_System_Text_Encodings_Web__jit_icall_mono_arch_throw_exception:
+_p_14:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 5122
+_p_15_plt_System_Text_Encodings_Web_System_SR_GetResourceString_string_llvm:
+	.globl _p_15_plt_System_Text_Encodings_Web_System_SR_GetResourceString_string_llvm
+.private_extern _p_15_plt_System_Text_Encodings_Web_System_SR_GetResourceString_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_SR_GetResourceString_string
+plt_System_Text_Encodings_Web_System_SR_GetResourceString_string:
+_p_15:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 5124
+_p_16_plt_System_Text_Encodings_Web_string_op_Equality_string_string_llvm:
+	.globl _p_16_plt_System_Text_Encodings_Web_string_op_Equality_string_string_llvm
+.private_extern _p_16_plt_System_Text_Encodings_Web_string_op_Equality_string_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_op_Equality_string_string
+plt_System_Text_Encodings_Web_string_op_Equality_string_string:
+_p_16:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 5126
+_p_17_plt_System_Text_Encodings_Web_string_Format_string_object_llvm:
+	.globl _p_17_plt_System_Text_Encodings_Web_string_Format_string_object_llvm
+.private_extern _p_17_plt_System_Text_Encodings_Web_string_Format_string_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_string_object
+plt_System_Text_Encodings_Web_string_Format_string_object:
+_p_17:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 5131
+_p_18_plt_System_Text_Encodings_Web_string_Join_string_object___llvm:
+	.globl _p_18_plt_System_Text_Encodings_Web_string_Join_string_object___llvm
+.private_extern _p_18_plt_System_Text_Encodings_Web_string_Join_string_object___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Join_string_object__
+plt_System_Text_Encodings_Web_string_Join_string_object__:
+_p_18:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 5136
+_p_19_plt_System_Text_Encodings_Web_string_Format_string_object_object_llvm:
+	.globl _p_19_plt_System_Text_Encodings_Web_string_Format_string_object_object_llvm
+.private_extern _p_19_plt_System_Text_Encodings_Web_string_Format_string_object_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_string_object_object
+plt_System_Text_Encodings_Web_string_Format_string_object_object:
+_p_19:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 5141
+_p_20_plt_System_Text_Encodings_Web_string_Format_string_object_object_object_llvm:
+	.globl _p_20_plt_System_Text_Encodings_Web_string_Format_string_object_object_object_llvm
+.private_extern _p_20_plt_System_Text_Encodings_Web_string_Format_string_object_object_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_string_object_object_object
+plt_System_Text_Encodings_Web_string_Format_string_object_object_object:
+_p_20:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 5146
+_p_21_plt_System_Text_Encodings_Web_string_Format_string_object___llvm:
+	.globl _p_21_plt_System_Text_Encodings_Web_string_Format_string_object___llvm
+.private_extern _p_21_plt_System_Text_Encodings_Web_string_Format_string_object___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_string_object__
+plt_System_Text_Encodings_Web_string_Format_string_object__:
+_p_21:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 5151
+_p_22_plt_System_Text_Encodings_Web_string_Concat_string_string_string_llvm:
+	.globl _p_22_plt_System_Text_Encodings_Web_string_Concat_string_string_string_llvm
+.private_extern _p_22_plt_System_Text_Encodings_Web_string_Concat_string_string_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Concat_string_string_string
+plt_System_Text_Encodings_Web_string_Concat_string_string_string:
+_p_22:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 5156
+_p_23_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_llvm:
+	.globl _p_23_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_llvm
+.private_extern _p_23_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object
+plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object:
+_p_23:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 5161
+_p_24_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_llvm:
+	.globl _p_24_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_llvm
+.private_extern _p_24_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object
+plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object:
+_p_24:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 5166
+_p_25_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_object_llvm:
+	.globl _p_25_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_object_llvm
+.private_extern _p_25_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_object_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_object
+plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object_object_object:
+_p_25:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 5171
+_p_26_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object___llvm:
+	.globl _p_26_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object___llvm
+.private_extern _p_26_plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object__
+plt_System_Text_Encodings_Web_string_Format_System_IFormatProvider_string_object__:
+_p_26:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 5176
+_p_27_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_27_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.private_extern _p_27_plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_System_Text_Encodings_Web_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_27:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 5181
+_p_28_plt_System_Text_Encodings_Web_System_Resources_ResourceManager__ctor_System_Type_llvm:
+	.globl _p_28_plt_System_Text_Encodings_Web_System_Resources_ResourceManager__ctor_System_Type_llvm
+.private_extern _p_28_plt_System_Text_Encodings_Web_System_Resources_ResourceManager__ctor_System_Type_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Resources_ResourceManager__ctor_System_Type
+plt_System_Text_Encodings_Web_System_Resources_ResourceManager__ctor_System_Type:
+_p_28:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 5189
+_p_29_plt_System_Text_Encodings_Web_System_AppContext_TryGetSwitch_string_bool__llvm:
+	.globl _p_29_plt_System_Text_Encodings_Web_System_AppContext_TryGetSwitch_string_bool__llvm
+.private_extern _p_29_plt_System_Text_Encodings_Web_System_AppContext_TryGetSwitch_string_bool__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_AppContext_TryGetSwitch_string_bool_
+plt_System_Text_Encodings_Web_System_AppContext_TryGetSwitch_string_bool_:
+_p_29:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 5194
+_p_30_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint_llvm:
+	.globl _p_30_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint_llvm
+.private_extern _p_30_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint
+plt_System_Text_Encodings_Web_System_Numerics_BitOperations_Log2SoftwareFallback_uint:
+_p_30:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 5199
+_p_31_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn_llvm:
+	.globl _p_31_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn_llvm
+.private_extern _p_31_plt_System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn
+plt_System_Text_Encodings_Web_System_Numerics_BitOperations_get_Log2DeBruijn:
+_p_31:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 5201
+_p_32_plt_System_Text_Encodings_Web_System_Runtime_CompilerServices_FormattableStringFactory_Create_string_object___llvm:
+	.globl _p_32_plt_System_Text_Encodings_Web_System_Runtime_CompilerServices_FormattableStringFactory_Create_string_object___llvm
+.private_extern _p_32_plt_System_Text_Encodings_Web_System_Runtime_CompilerServices_FormattableStringFactory_Create_string_object___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Runtime_CompilerServices_FormattableStringFactory_Create_string_object__
+plt_System_Text_Encodings_Web_System_Runtime_CompilerServices_FormattableStringFactory_Create_string_object__:
+_p_32:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 5203
+_p_33_plt_System_Text_Encodings_Web_System_FormattableString_Invariant_System_FormattableString_llvm:
+	.globl _p_33_plt_System_Text_Encodings_Web_System_FormattableString_Invariant_System_FormattableString_llvm
+.private_extern _p_33_plt_System_Text_Encodings_Web_System_FormattableString_Invariant_System_FormattableString_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_FormattableString_Invariant_System_FormattableString
+plt_System_Text_Encodings_Web_System_FormattableString_Invariant_System_FormattableString:
+_p_33:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 5208
+_p_34_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_char___llvm:
+	.globl _p_34_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_char___llvm
+.private_extern _p_34_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_char___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_char__
+plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_char__:
+_p_34:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 5213
+_p_35_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int_llvm:
+	.globl _p_35_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int_llvm
+.private_extern _p_35_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Grow_int:
+_p_35:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 5224
+_p_36_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int_llvm:
+	.globl _p_36_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int_llvm
+.private_extern _p_36_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_EnsureCapacity_int:
+_p_36:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 5226
+_p_37_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_int_llvm:
+	.globl _p_37_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_int_llvm
+.private_extern _p_37_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_int
+plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_int:
+_p_37:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 5228
+_p_38_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_System_Span_1_char_llvm:
+	.globl _p_38_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_System_Span_1_char_llvm
+.private_extern _p_38_plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Span_1_char_op_Implicit_System_Span_1_char:
+_p_38:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 5239
+_p_39_plt_System_Text_Encodings_Web_System_Span_1_char_TryCopyTo_System_Span_1_char_llvm:
+	.globl _p_39_plt_System_Text_Encodings_Web_System_Span_1_char_TryCopyTo_System_Span_1_char_llvm
+.private_extern _p_39_plt_System_Text_Encodings_Web_System_Span_1_char_TryCopyTo_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_TryCopyTo_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Span_1_char_TryCopyTo_System_Span_1_char:
+_p_39:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 5250
+_p_40_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_llvm:
+	.globl _p_40_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_llvm
+.private_extern _p_40_plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int
+plt_System_Text_Encodings_Web_System_Span_1_char_Slice_int:
+_p_40:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 5261
+_p_41_plt_System_Text_Encodings_Web_System_Span_1_char_CopyTo_System_Span_1_char_llvm:
+	.globl _p_41_plt_System_Text_Encodings_Web_System_Span_1_char_CopyTo_System_Span_1_char_llvm
+.private_extern _p_41_plt_System_Text_Encodings_Web_System_Span_1_char_CopyTo_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_CopyTo_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Span_1_char_CopyTo_System_Span_1_char:
+_p_41:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 5272
+_p_42_plt_System_Text_Encodings_Web_System_Span_1_char_Fill_char_llvm:
+	.globl _p_42_plt_System_Text_Encodings_Web_System_Span_1_char_Fill_char_llvm
+.private_extern _p_42_plt_System_Text_Encodings_Web_System_Span_1_char_Fill_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_char_Fill_char
+plt_System_Text_Encodings_Web_System_Span_1_char_Fill_char:
+_p_42:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 5283
+_p_43_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_llvm:
+	.globl _p_43_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_llvm
+.private_extern _p_43_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string
+plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string:
+_p_43:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 5294
+_p_44_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char_llvm:
+	.globl _p_44_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char_llvm
+.private_extern _p_44_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char:
+_p_44:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 5299
+_p_45_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char_llvm:
+	.globl _p_45_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char_llvm
+.private_extern _p_45_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_GrowAndAppend_char:
+_p_45:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 5310
+_p_46_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string_llvm:
+	.globl _p_46_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string_llvm
+.private_extern _p_46_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_AppendSlow_string:
+_p_46:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 5312
+_p_47_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument_llvm:
+	.globl _p_47_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument_llvm
+.private_extern _p_47_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentOutOfRangeException_System_Text_Encodings_Web_ExceptionArgument:
+_p_47:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 5314
+_p_48_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_uint_llvm:
+	.globl _p_48_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_uint_llvm
+.private_extern _p_48_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_uint_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune__ctor_uint
+plt_System_Text_Encodings_Web_System_Text_Rune__ctor_uint:
+_p_48:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 5317
+_p_49_plt_System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint_llvm:
+	.globl _p_49_plt_System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint_llvm
+.private_extern _p_49_plt_System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint
+plt_System_Text_Encodings_Web_System_Text_UnicodeUtility_GetUtf16SequenceLength_uint:
+_p_49:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 5319
+_p_50_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune__llvm:
+	.globl _p_50_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune__llvm
+.private_extern _p_50_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune_
+plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_System_Text_Rune_:
+_p_50:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 5321
+_p_51_plt_System_Text_Encodings_Web_char_IsHighSurrogate_char_llvm:
+	.globl _p_51_plt_System_Text_Encodings_Web_char_IsHighSurrogate_char_llvm
+.private_extern _p_51_plt_System_Text_Encodings_Web_char_IsHighSurrogate_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_char_IsHighSurrogate_char
+plt_System_Text_Encodings_Web_char_IsHighSurrogate_char:
+_p_51:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 5324
+_p_52_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune__llvm:
+	.globl _p_52_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune__llvm
+.private_extern _p_52_plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune_
+plt_System_Text_Encodings_Web_System_Text_Rune_TryCreate_char_char_System_Text_Rune_:
+_p_52:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 5329
+_p_53_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan_llvm:
+	.globl _p_53_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan_llvm
+.private_extern _p_53_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_get_DefinedCharsBitmapSpan:
+_p_53:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 5332
+_p_54_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_54_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_llvm
+.private_extern _p_54_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr
+plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr:
+_p_54:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 5335
+_p_55_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_55_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_1_llvm
+.private_extern _p_55_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_1_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_1
+plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_1:
+_p_55:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #640]
+br x16
+.word 5338
+_p_56_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int_llvm:
+	.globl _p_56_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int_llvm
+.private_extern _p_56_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange__ctor_int_int:
+_p_56:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #648]
+br x16
+.word 5341
+_p_57_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange__llvm:
+	.globl _p_57_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange__llvm
+.private_extern _p_57_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange_
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateEmptyRange_System_Text_Unicode_UnicodeRange_:
+_p_57:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #656]
+br x16
+.word 5344
+_p_58_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char_llvm:
+	.globl _p_58_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char_llvm
+.private_extern _p_58_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_CreateRange_System_Text_Unicode_UnicodeRange__char_char:
+_p_58:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #664]
+br x16
+.word 5347
+_p_59_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char_llvm:
+	.globl _p_59_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char_llvm
+.private_extern _p_59_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRange_Create_char_char:
+_p_59:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #672]
+br x16
+.word 5350
+_p_60_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian_llvm:
+	.globl _p_60_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian_llvm
+.private_extern _p_60_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetDefinedBmpCodePointsBitmapLittleEndian:
+_p_60:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #680]
+br x16
+.word 5353
+_p_61_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_llvm:
+	.globl _p_61_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_llvm
+.private_extern _p_61_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int:
+_p_61:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #688]
+br x16
+.word 5356
+_p_62_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_llvm:
+	.globl _p_62_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_llvm
+.private_extern _p_62_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
+_p_62:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #696]
+br x16
+.word 5367
+_p_63_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm:
+	.globl _p_63_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm
+.private_extern _p_63_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type:
+_p_63:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #704]
+br x16
+.word 5372
+_p_64_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm:
+	.globl _p_64_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+.private_extern _p_64_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentOutOfRangeException:
+_p_64:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #712]
+br x16
+.word 5377
+_p_65_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters_llvm:
+	.globl _p_65_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters_llvm
+.private_extern _p_65_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidUndefinedCharacters:
+_p_65:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #720]
+br x16
+.word 5382
+_p_66_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase_llvm:
+	.globl _p_66_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase_llvm
+.private_extern _p_66_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AsciiPreescapedData_PopulatePreescapedData_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__System_Text_Encodings_Web_ScalarEscaperBase:
+_p_66:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #728]
+br x16
+.word 5385
+_p_67_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__llvm:
+	.globl _p_67_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__llvm
+.private_extern _p_67_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_AllowedAsciiCodePoints_PopulateAllowedCodePoints_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_:
+_p_67:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #736]
+br x16
+.word 5388
+_p_68_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters_llvm:
+	.globl _p_68_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters_llvm
+.private_extern _p_68_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap_ForbidHtmlCharacters:
+_p_68:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #744]
+br x16
+.word 5391
+_p_69_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char__ctor_void__int_llvm:
+	.globl _p_69_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char__ctor_void__int_llvm
+.private_extern _p_69_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char__ctor_void__int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char__ctor_void__int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char__ctor_void__int:
+_p_69:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #752]
+br x16
+.word 5394
+_p_70_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char_llvm:
+	.globl _p_70_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char_llvm
+.private_extern _p_70_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstCharToEncode_System_ReadOnlySpan_1_char:
+_p_70:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #760]
+br x16
+.word 5405
+_p_71_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_int_llvm:
+	.globl _p_71_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_int_llvm
+.private_extern _p_71_plt_System_Text_Encodings_Web_System_Text_Rune__ctor_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune__ctor_int
+plt_System_Text_Encodings_Web_System_Text_Rune__ctor_int:
+_p_71:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #768]
+br x16
+.word 5408
+_p_72_plt_System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength_llvm:
+	.globl _p_72_plt_System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength_llvm
+.private_extern _p_72_plt_System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength
+plt_System_Text_Encodings_Web_System_Text_Rune_get_Utf16SequenceLength:
+_p_72:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #776]
+br x16
+.word 5410
+_p_73_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int__llvm:
+	.globl _p_73_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int__llvm
+.private_extern _p_73_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int_
+plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf16_System_Span_1_char_int_:
+_p_73:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #784]
+br x16
+.word 5413
+_p_74_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int__llvm:
+	.globl _p_74_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int__llvm
+.private_extern _p_74_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int_
+plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf8_System_ReadOnlySpan_1_byte_System_Text_Rune__int_:
+_p_74:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #792]
+br x16
+.word 5416
+_p_75_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_llvm:
+	.globl _p_75_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_llvm
+.private_extern _p_75_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int
+plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int:
+_p_75:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #800]
+br x16
+.word 5419
+_p_76_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int__llvm:
+	.globl _p_76_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int__llvm
+.private_extern _p_76_plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int_
+plt_System_Text_Encodings_Web_System_Text_Rune_TryEncodeToUtf8_System_Span_1_byte_int_:
+_p_76:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #808]
+br x16
+.word 5430
+_p_77_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_GetPinnableReference_llvm:
+	.globl _p_77_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_GetPinnableReference_llvm
+.private_extern _p_77_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_GetPinnableReference_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_GetPinnableReference
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_GetPinnableReference:
+_p_77:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #816]
+br x16
+.word 5433
+_p_78_plt_System_Text_Encodings_Web_string_memset_byte__int_int_llvm:
+	.globl _p_78_plt_System_Text_Encodings_Web_string_memset_byte__int_int_llvm
+.private_extern _p_78_plt_System_Text_Encodings_Web_string_memset_byte__int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_memset_byte__int_int
+plt_System_Text_Encodings_Web_string_memset_byte__int_int:
+_p_78:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #824]
+br x16
+.word 5444
+_p_79_plt_System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune_llvm:
+	.globl _p_79_plt_System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune_llvm
+.private_extern _p_79_plt_System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune
+plt_System_Text_Encodings_Web_System_Text_Rune_IsControl_System_Text_Rune:
+_p_79:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #832]
+br x16
+.word 5449
+_p_80_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithoutReferences_byte__ulong_llvm:
+	.globl _p_80_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithoutReferences_byte__ulong_llvm
+.private_extern _p_80_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithoutReferences_byte__ulong_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithoutReferences_byte__ulong
+plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithoutReferences_byte__ulong:
+_p_80:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #840]
+br x16
+.word 5452
+_p_81_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithReferences_intptr__ulong_llvm:
+	.globl _p_81_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithReferences_intptr__ulong_llvm
+.private_extern _p_81_plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithReferences_intptr__ulong_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithReferences_intptr__ulong
+plt_System_Text_Encodings_Web_System_SpanHelpers_ClearWithReferences_intptr__ulong:
+_p_81:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #848]
+br x16
+.word 5457
+_p_82_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap_llvm:
+	.globl _p_82_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap_llvm
+.private_extern _p_82_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings_GetAllowedCodePointsBitmap:
+_p_82:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #856]
+br x16
+.word 5462
+_p_83_plt_System_Text_Encodings_Web__jit_icall_ves_icall_object_new_specific_llvm:
+	.globl _p_83_plt_System_Text_Encodings_Web__jit_icall_ves_icall_object_new_specific_llvm
+.private_extern _p_83_plt_System_Text_Encodings_Web__jit_icall_ves_icall_object_new_specific_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_ves_icall_object_new_specific
+plt_System_Text_Encodings_Web__jit_icall_ves_icall_object_new_specific:
+_p_83:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #864]
+br x16
+.word 5465
+_p_84_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char_llvm:
+	.globl _p_84_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char_llvm
+.private_extern _p_84_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder__ctor_System_Text_Encodings_Web_ScalarEscaperBase_System_Text_Encodings_Web_AllowedBmpCodePointsBitmap__bool_System_ReadOnlySpan_1_char:
+_p_84:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #872]
+br x16
+.word 5468
+_p_85_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument_llvm:
+	.globl _p_85_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument_llvm
+.private_extern _p_85_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_ThrowArgumentNullException_System_Text_Encodings_Web_ExceptionArgument:
+_p_85:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #880]
+br x16
+.word 5471
+_p_86_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool_llvm:
+	.globl _p_86_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool_llvm
+.private_extern _p_86_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_Encode_System_ReadOnlySpan_1_char_System_Span_1_char_int__int__bool:
+_p_86:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #888]
+br x16
+.word 5474
+_p_87_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool_llvm:
+	.globl _p_87_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool_llvm
+.private_extern _p_87_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_EncodeUtf8_System_ReadOnlySpan_1_byte_System_Span_1_byte_int__int__bool:
+_p_87:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #896]
+br x16
+.word 5477
+_p_88_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int_llvm:
+	.globl _p_88_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int_llvm
+.private_extern _p_88_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_FindFirstCharacterToEncode_char__int:
+_p_88:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #904]
+br x16
+.word 5480
+_p_89_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte_llvm:
+	.globl _p_89_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte_llvm
+.private_extern _p_89_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_GetIndexOfFirstByteToEncode_System_ReadOnlySpan_1_byte:
+_p_89:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 5483
+_p_90_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int__llvm:
+	.globl _p_90_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int__llvm
+.private_extern _p_90_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int_
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_OptimizedInboxTextEncoder_TryEncodeUnicodeScalar_int_char__int_int_:
+_p_90:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #920]
+br x16
+.word 5486
+_p_91_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin_llvm:
+	.globl _p_91_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin_llvm
+.private_extern _p_91_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_BasicLatin:
+_p_91:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #928]
+br x16
+.word 5489
+_p_92_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange___llvm:
+	.globl _p_92_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange___llvm
+.private_extern _p_92_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange___llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange__
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__ctor_System_Text_Unicode_UnicodeRange__:
+_p_92:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #936]
+br x16
+.word 5492
+_p_93_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm:
+	.globl _p_93_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+.private_extern _p_93_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultUrlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings:
+_p_93:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #944]
+br x16
+.word 5495
+_p_94_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint_llvm:
+	.globl _p_94_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint_llvm
+.private_extern _p_94_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeHelpers_GetUtf8RepresentationForScalarValue_uint:
+_p_94:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #952]
+br x16
+.word 5498
+_p_95_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool_llvm:
+	.globl _p_95_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool_llvm
+.private_extern _p_95_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_bool:
+_p_95:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #960]
+br x16
+.word 5501
+_p_96_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm:
+	.globl _p_96_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+.private_extern _p_96_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings:
+_p_96:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #968]
+br x16
+.word 5504
+_p_97_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All_llvm:
+	.globl _p_97_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All_llvm
+.private_extern _p_97_plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All
+plt_System_Text_Encodings_Web_System_Text_Unicode_UnicodeRanges_get_All:
+_p_97:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #976]
+br x16
+.word 5507
+_p_98_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte_llvm:
+	.globl _p_98_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte_llvm
+.private_extern _p_98_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_AsciiByteMap_InsertAsciiChar_char_byte:
+_p_98:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #984]
+br x16
+.word 5510
+_p_99_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte_llvm:
+	.globl _p_99_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte_llvm
+.private_extern _p_99_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_4_0_object_System_Text_Rune_System_Span_1_byte:
+_p_99:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #992]
+br x16
+.word 5513
+_p_100_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char_llvm:
+	.globl _p_100_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char_llvm
+.private_extern _p_100_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_5_0_object_System_Text_Rune_System_Span_1_char:
+_p_100:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1000]
+br x16
+.word 5516
+_p_101_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool_llvm:
+	.globl _p_101_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool_llvm
+.private_extern _p_101_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultJavaScriptEncoder_EscaperImplementation__ctor_bool:
+_p_101:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1008]
+br x16
+.word 5519
+_p_102_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm:
+	.globl _p_102_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+.private_extern _p_102_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder__ctor_System_Text_Encodings_Web_TextEncoderSettings:
+_p_102:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1016]
+br x16
+.word 5522
+_p_103_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte_llvm:
+	.globl _p_103_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte_llvm
+.private_extern _p_103_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf8g__TryEncodeScalarAsHex_2_0_object_uint_System_Span_1_byte:
+_p_103:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1024]
+br x16
+.word 5525
+_p_104_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char_llvm:
+	.globl _p_104_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char_llvm
+.private_extern _p_104_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_DefaultHtmlEncoder_EscaperImplementation__EncodeUtf16g__TryEncodeScalarAsHex_3_0_object_uint_System_Span_1_char:
+_p_104:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1032]
+br x16
+.word 5528
+_p_105_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_int_llvm:
+	.globl _p_105_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_int_llvm
+.private_extern _p_105_plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_int
+plt_System_Text_Encodings_Web_System_Span_1_byte_Slice_int_int:
+_p_105:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1040]
+br x16
+.word 5531
+_p_106_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int__llvm:
+	.globl _p_106_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int__llvm
+.private_extern _p_106_plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int_
+plt_System_Text_Encodings_Web_System_Text_Rune_DecodeFromUtf16_System_ReadOnlySpan_1_char_System_Text_Rune__int_:
+_p_106:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1048]
+br x16
+.word 5542
+_p_107_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar_llvm:
+	.globl _p_107_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar_llvm
+.private_extern _p_107_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ThrowArgumentException_MaxOutputCharsPerInputChar:
+_p_107:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1056]
+br x16
+.word 5545
+_p_108_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int_llvm:
+	.globl _p_108_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int_llvm
+.private_extern _p_108_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeToNewString_System_ReadOnlySpan_1_char_int:
+_p_108:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1064]
+br x16
+.word 5548
+_p_109_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_llvm:
+	.globl _p_109_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_llvm
+.private_extern _p_109_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int:
+_p_109:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1072]
+br x16
+.word 5551
+_p_110_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char_llvm:
+	.globl _p_110_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char_llvm
+.private_extern _p_110_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder__ctor_System_Span_1_char:
+_p_110:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1080]
+br x16
+.word 5562
+_p_111_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_int_llvm:
+	.globl _p_111_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_int_llvm
+.private_extern _p_111_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_char_Slice_int_int:
+_p_111:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1088]
+br x16
+.word 5564
+_p_112_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char_llvm:
+	.globl _p_112_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char_llvm
+.private_extern _p_112_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_Append_System_ReadOnlySpan_1_char:
+_p_112:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1096]
+br x16
+.word 5575
+_p_113_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString_llvm:
+	.globl _p_113_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString_llvm
+.private_extern _p_113_plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString
+plt_System_Text_Encodings_Web_System_Text_ValueStringBuilder_ToString:
+_p_113:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1104]
+br x16
+.word 5577
+_p_114_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int_llvm:
+	.globl _p_114_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int_llvm
+.private_extern _p_114_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_ValidateRanges_int_int_int:
+_p_114:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1112]
+br x16
+.word 5579
+_p_115_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_int_int_llvm:
+	.globl _p_115_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_int_int_llvm
+.private_extern _p_115_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_int_int
+plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_string_int_int:
+_p_115:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1120]
+br x16
+.word 5582
+_p_116_plt_System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int_llvm:
+	.globl _p_116_plt_System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int_llvm
+.private_extern _p_116_plt_System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int
+plt_System_Text_Encodings_Web_System_IO_TextWriterExtensions_WritePartialString_System_IO_TextWriter_string_int_int:
+_p_116:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1128]
+br x16
+.word 5587
+_p_117_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char_llvm:
+	.globl _p_117_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char_llvm
+.private_extern _p_117_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_EncodeCore_System_IO_TextWriter_System_ReadOnlySpan_1_char:
+_p_117:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 5590
+_p_118_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___int_int_llvm:
+	.globl _p_118_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___int_int_llvm
+.private_extern _p_118_plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___int_int
+plt_System_Text_Encodings_Web_System_MemoryExtensions_AsSpan_char_char___int_int:
+_p_118:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 5593
+_p_119_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_int_llvm:
+	.globl _p_119_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_int_llvm
+.private_extern _p_119_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_int
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_Slice_int_int:
+_p_119:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 5605
+_p_120_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_CopyTo_System_Span_1_byte_llvm:
+	.globl _p_120_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_CopyTo_System_Span_1_byte_llvm
+.private_extern _p_120_plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_CopyTo_System_Span_1_byte_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_CopyTo_System_Span_1_byte
+plt_System_Text_Encodings_Web_System_ReadOnlySpan_1_byte_CopyTo_System_Span_1_byte:
+_p_120:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 5616
+_p_121_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int__llvm:
+	.globl _p_121_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int__llvm
+.private_extern _p_121_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int__llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int_
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoder_TryEncodeUnicodeScalarUtf8_uint_System_Span_1_char_System_Span_1_byte_int_:
+_p_121:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 5627
+_p_122_plt_System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar_llvm:
+	.globl _p_122_plt_System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar_llvm
+.private_extern _p_122_plt_System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar
+plt_System_Text_Encodings_Web_System_SR_get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar:
+_p_122:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 5630
+_p_123_plt_System_Text_Encodings_Web__jit_icall_ves_icall_thread_finish_async_abort_llvm:
+	.globl _p_123_plt_System_Text_Encodings_Web__jit_icall_ves_icall_thread_finish_async_abort_llvm
+.private_extern _p_123_plt_System_Text_Encodings_Web__jit_icall_ves_icall_thread_finish_async_abort_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_ves_icall_thread_finish_async_abort
+plt_System_Text_Encodings_Web__jit_icall_ves_icall_thread_finish_async_abort:
+_p_123:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 5632
+_p_124_plt_System_Text_Encodings_Web__jit_icall_llvm_resume_unwind_trampoline_llvm:
+	.globl _p_124_plt_System_Text_Encodings_Web__jit_icall_llvm_resume_unwind_trampoline_llvm
+.private_extern _p_124_plt_System_Text_Encodings_Web__jit_icall_llvm_resume_unwind_trampoline_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_llvm_resume_unwind_trampoline
+plt_System_Text_Encodings_Web__jit_icall_llvm_resume_unwind_trampoline:
+_p_124:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 5635
+_p_125_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int_llvm:
+	.globl _p_125_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int_llvm
+.private_extern _p_125_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14__ctor_int:
+_p_125:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1200]
+br x16
+.word 5638
+_p_126_plt_System_Text_Encodings_Web_System_Environment_get_CurrentManagedThreadId_llvm:
+	.globl _p_126_plt_System_Text_Encodings_Web_System_Environment_get_CurrentManagedThreadId_llvm
+.private_extern _p_126_plt_System_Text_Encodings_Web_System_Environment_get_CurrentManagedThreadId_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Environment_get_CurrentManagedThreadId
+plt_System_Text_Encodings_Web_System_Environment_get_CurrentManagedThreadId:
+_p_126:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1208]
+br x16
+.word 5641
+_p_127_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_0_llvm:
+	.globl _p_127_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_0_llvm
+.private_extern _p_127_plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_0_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_0
+plt_System_Text_Encodings_Web__jit_icall_mono_create_corlib_exception_0:
+_p_127:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1216]
+br x16
+.word 5646
+_p_128_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator_llvm:
+	.globl _p_128_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator_llvm
+.private_extern _p_128_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_TextEncoderSettings__GetAllowedCodePointsd__14_System_Collections_Generic_IEnumerable_System_Int32_GetEnumerator:
+_p_128:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1224]
+br x16
+.word 5649
+_p_129_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument_llvm:
+	.globl _p_129_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument_llvm
+.private_extern _p_129_plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument
+plt_System_Text_Encodings_Web_System_Text_Encodings_Web_ThrowHelper_GetArgumentName_System_Text_Encodings_Web_ExceptionArgument:
+_p_129:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1232]
+br x16
+.word 5652
+_p_130_plt_System_Text_Encodings_Web_System_Enum_ToString_llvm:
+	.globl _p_130_plt_System_Text_Encodings_Web_System_Enum_ToString_llvm
+.private_extern _p_130_plt_System_Text_Encodings_Web_System_Enum_ToString_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Enum_ToString
+plt_System_Text_Encodings_Web_System_Enum_ToString:
+_p_130:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1240]
+br x16
+.word 5655
+_p_131_plt_System_Text_Encodings_Web__rgctx_fetch_0_llvm:
+	.globl _p_131_plt_System_Text_Encodings_Web__rgctx_fetch_0_llvm
+.private_extern _p_131_plt_System_Text_Encodings_Web__rgctx_fetch_0_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_0
+plt_System_Text_Encodings_Web__rgctx_fetch_0:
+_p_131:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1248]
+br x16
+.word 5667
+_p_132_plt_System_Text_Encodings_Web__rgctx_fetch_1_llvm:
+	.globl _p_132_plt_System_Text_Encodings_Web__rgctx_fetch_1_llvm
+.private_extern _p_132_plt_System_Text_Encodings_Web__rgctx_fetch_1_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_1
+plt_System_Text_Encodings_Web__rgctx_fetch_1:
+_p_132:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1256]
+br x16
+.word 5675
+_p_133_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm:
+	.globl _p_133_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm
+.private_extern _p_133_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArrayTypeMismatchException
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArrayTypeMismatchException:
+_p_133:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1264]
+br x16
+.word 5685
+_p_134_plt_System_Text_Encodings_Web__rgctx_fetch_2_llvm:
+	.globl _p_134_plt_System_Text_Encodings_Web__rgctx_fetch_2_llvm
+.private_extern _p_134_plt_System_Text_Encodings_Web__rgctx_fetch_2_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_2
+plt_System_Text_Encodings_Web__rgctx_fetch_2:
+_p_134:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1272]
+br x16
+.word 5690
+_p_135_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowIndexOutOfRangeException_llvm:
+	.globl _p_135_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowIndexOutOfRangeException_llvm
+.private_extern _p_135_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowIndexOutOfRangeException_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowIndexOutOfRangeException
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowIndexOutOfRangeException:
+_p_135:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1280]
+br x16
+.word 5698
+_p_136_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentException_DestinationTooShort_llvm:
+	.globl _p_136_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentException_DestinationTooShort_llvm
+.private_extern _p_136_plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentException_DestinationTooShort_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentException_DestinationTooShort
+plt_System_Text_Encodings_Web_System_ThrowHelper_ThrowArgumentException_DestinationTooShort:
+_p_136:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1288]
+br x16
+.word 5703
+_p_137_plt_System_Text_Encodings_Web__rgctx_fetch_3_llvm:
+	.globl _p_137_plt_System_Text_Encodings_Web__rgctx_fetch_3_llvm
+.private_extern _p_137_plt_System_Text_Encodings_Web__rgctx_fetch_3_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_3
+plt_System_Text_Encodings_Web__rgctx_fetch_3:
+_p_137:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1296]
+br x16
+.word 5708
+_p_138_plt_System_Text_Encodings_Web__rgctx_fetch_4_llvm:
+	.globl _p_138_plt_System_Text_Encodings_Web__rgctx_fetch_4_llvm
+.private_extern _p_138_plt_System_Text_Encodings_Web__rgctx_fetch_4_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_4
+plt_System_Text_Encodings_Web__rgctx_fetch_4:
+_p_138:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1304]
+br x16
+.word 5728
+_p_139_plt_System_Text_Encodings_Web__rgctx_fetch_5_llvm:
+	.globl _p_139_plt_System_Text_Encodings_Web__rgctx_fetch_5_llvm
+.private_extern _p_139_plt_System_Text_Encodings_Web__rgctx_fetch_5_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_5
+plt_System_Text_Encodings_Web__rgctx_fetch_5:
+_p_139:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1312]
+br x16
+.word 5755
+_p_140_plt_System_Text_Encodings_Web__rgctx_fetch_6_llvm:
+	.globl _p_140_plt_System_Text_Encodings_Web__rgctx_fetch_6_llvm
+.private_extern _p_140_plt_System_Text_Encodings_Web__rgctx_fetch_6_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_6
+plt_System_Text_Encodings_Web__rgctx_fetch_6:
+_p_140:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1320]
+br x16
+.word 5763
+_p_141_plt_System_Text_Encodings_Web_string__ctor_char__int_int_llvm:
+	.globl _p_141_plt_System_Text_Encodings_Web_string__ctor_char__int_int_llvm
+.private_extern _p_141_plt_System_Text_Encodings_Web_string__ctor_char__int_int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string__ctor_char__int_int
+plt_System_Text_Encodings_Web_string__ctor_char__int_int:
+_p_141:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1328]
+br x16
+.word 5782
+_p_142_plt_System_Text_Encodings_Web__rgctx_fetch_7_llvm:
+	.globl _p_142_plt_System_Text_Encodings_Web__rgctx_fetch_7_llvm
+.private_extern _p_142_plt_System_Text_Encodings_Web__rgctx_fetch_7_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_7
+plt_System_Text_Encodings_Web__rgctx_fetch_7:
+_p_142:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1336]
+br x16
+.word 5787
+_p_143_plt_System_Text_Encodings_Web__rgctx_fetch_8_llvm:
+	.globl _p_143_plt_System_Text_Encodings_Web__rgctx_fetch_8_llvm
+.private_extern _p_143_plt_System_Text_Encodings_Web__rgctx_fetch_8_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_8
+plt_System_Text_Encodings_Web__rgctx_fetch_8:
+_p_143:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1344]
+br x16
+.word 5795
+_p_144_plt_System_Text_Encodings_Web__rgctx_fetch_9_llvm:
+	.globl _p_144_plt_System_Text_Encodings_Web__rgctx_fetch_9_llvm
+.private_extern _p_144_plt_System_Text_Encodings_Web__rgctx_fetch_9_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_9
+plt_System_Text_Encodings_Web__rgctx_fetch_9:
+_p_144:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1352]
+br x16
+.word 5814
+_p_145_plt_System_Text_Encodings_Web__rgctx_fetch_10_llvm:
+	.globl _p_145_plt_System_Text_Encodings_Web__rgctx_fetch_10_llvm
+.private_extern _p_145_plt_System_Text_Encodings_Web__rgctx_fetch_10_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_10
+plt_System_Text_Encodings_Web__rgctx_fetch_10:
+_p_145:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1360]
+br x16
+.word 5824
+_p_146_plt_System_Text_Encodings_Web__rgctx_fetch_11_llvm:
+	.globl _p_146_plt_System_Text_Encodings_Web__rgctx_fetch_11_llvm
+.private_extern _p_146_plt_System_Text_Encodings_Web__rgctx_fetch_11_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_11
+plt_System_Text_Encodings_Web__rgctx_fetch_11:
+_p_146:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1368]
+br x16
+.word 5851
+_p_147_plt_System_Text_Encodings_Web__rgctx_fetch_12_llvm:
+	.globl _p_147_plt_System_Text_Encodings_Web__rgctx_fetch_12_llvm
+.private_extern _p_147_plt_System_Text_Encodings_Web__rgctx_fetch_12_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_12
+plt_System_Text_Encodings_Web__rgctx_fetch_12:
+_p_147:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1376]
+br x16
+.word 5859
+_p_148_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_148_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.private_extern _p_148_plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_mscorlib_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_mscorlib
+plt_System_Text_Encodings_Web__jit_icall_mono_helper_ldstr_mscorlib:
+_p_148:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1384]
+br x16
+.word 5867
+_p_149_plt_System_Text_Encodings_Web__rgctx_fetch_13_llvm:
+	.globl _p_149_plt_System_Text_Encodings_Web__rgctx_fetch_13_llvm
+.private_extern _p_149_plt_System_Text_Encodings_Web__rgctx_fetch_13_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_13
+plt_System_Text_Encodings_Web__rgctx_fetch_13:
+_p_149:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1392]
+br x16
+.word 5870
+_p_150_plt_System_Text_Encodings_Web__rgctx_fetch_14_llvm:
+	.globl _p_150_plt_System_Text_Encodings_Web__rgctx_fetch_14_llvm
+.private_extern _p_150_plt_System_Text_Encodings_Web__rgctx_fetch_14_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_14
+plt_System_Text_Encodings_Web__rgctx_fetch_14:
+_p_150:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1400]
+br x16
+.word 5896
+_p_151_plt_System_Text_Encodings_Web__rgctx_fetch_15_llvm:
+	.globl _p_151_plt_System_Text_Encodings_Web__rgctx_fetch_15_llvm
+.private_extern _p_151_plt_System_Text_Encodings_Web__rgctx_fetch_15_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_15
+plt_System_Text_Encodings_Web__rgctx_fetch_15:
+_p_151:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1408]
+br x16
+.word 5904
+_p_152_plt_System_Text_Encodings_Web__rgctx_fetch_16_llvm:
+	.globl _p_152_plt_System_Text_Encodings_Web__rgctx_fetch_16_llvm
+.private_extern _p_152_plt_System_Text_Encodings_Web__rgctx_fetch_16_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_16
+plt_System_Text_Encodings_Web__rgctx_fetch_16:
+_p_152:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1416]
+br x16
+.word 5923
+_p_153_plt_System_Text_Encodings_Web__rgctx_fetch_17_llvm:
+	.globl _p_153_plt_System_Text_Encodings_Web__rgctx_fetch_17_llvm
+.private_extern _p_153_plt_System_Text_Encodings_Web__rgctx_fetch_17_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_17
+plt_System_Text_Encodings_Web__rgctx_fetch_17:
+_p_153:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1424]
+br x16
+.word 5942
+_p_154_plt_System_Text_Encodings_Web__rgctx_fetch_18_llvm:
+	.globl _p_154_plt_System_Text_Encodings_Web__rgctx_fetch_18_llvm
+.private_extern _p_154_plt_System_Text_Encodings_Web__rgctx_fetch_18_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_18
+plt_System_Text_Encodings_Web__rgctx_fetch_18:
+_p_154:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1432]
+br x16
+.word 5961
+_p_155_plt_System_Text_Encodings_Web__rgctx_fetch_19_llvm:
+	.globl _p_155_plt_System_Text_Encodings_Web__rgctx_fetch_19_llvm
+.private_extern _p_155_plt_System_Text_Encodings_Web__rgctx_fetch_19_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_19
+plt_System_Text_Encodings_Web__rgctx_fetch_19:
+_p_155:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1440]
+br x16
+.word 5987
+_p_156_plt_System_Text_Encodings_Web__rgctx_fetch_20_llvm:
+	.globl _p_156_plt_System_Text_Encodings_Web__rgctx_fetch_20_llvm
+.private_extern _p_156_plt_System_Text_Encodings_Web__rgctx_fetch_20_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_20
+plt_System_Text_Encodings_Web__rgctx_fetch_20:
+_p_156:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1448]
+br x16
+.word 5995
+_p_157_plt_System_Text_Encodings_Web__rgctx_fetch_21_llvm:
+	.globl _p_157_plt_System_Text_Encodings_Web__rgctx_fetch_21_llvm
+.private_extern _p_157_plt_System_Text_Encodings_Web__rgctx_fetch_21_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_21
+plt_System_Text_Encodings_Web__rgctx_fetch_21:
+_p_157:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1456]
+br x16
+.word 6005
+_p_158_plt_System_Text_Encodings_Web__rgctx_fetch_22_llvm:
+	.globl _p_158_plt_System_Text_Encodings_Web__rgctx_fetch_22_llvm
+.private_extern _p_158_plt_System_Text_Encodings_Web__rgctx_fetch_22_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_22
+plt_System_Text_Encodings_Web__rgctx_fetch_22:
+_p_158:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1464]
+br x16
+.word 6013
+_p_159_plt_System_Text_Encodings_Web__rgctx_fetch_23_llvm:
+	.globl _p_159_plt_System_Text_Encodings_Web__rgctx_fetch_23_llvm
+.private_extern _p_159_plt_System_Text_Encodings_Web__rgctx_fetch_23_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_23
+plt_System_Text_Encodings_Web__rgctx_fetch_23:
+_p_159:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1472]
+br x16
+.word 6033
+_p_160_plt_System_Text_Encodings_Web__rgctx_fetch_24_llvm:
+	.globl _p_160_plt_System_Text_Encodings_Web__rgctx_fetch_24_llvm
+.private_extern _p_160_plt_System_Text_Encodings_Web__rgctx_fetch_24_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_24
+plt_System_Text_Encodings_Web__rgctx_fetch_24:
+_p_160:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1480]
+br x16
+.word 6060
+_p_161_plt_System_Text_Encodings_Web__rgctx_fetch_25_llvm:
+	.globl _p_161_plt_System_Text_Encodings_Web__rgctx_fetch_25_llvm
+.private_extern _p_161_plt_System_Text_Encodings_Web__rgctx_fetch_25_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_25
+plt_System_Text_Encodings_Web__rgctx_fetch_25:
+_p_161:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1488]
+br x16
+.word 6068
+_p_162_plt_System_Text_Encodings_Web__rgctx_fetch_26_llvm:
+	.globl _p_162_plt_System_Text_Encodings_Web__rgctx_fetch_26_llvm
+.private_extern _p_162_plt_System_Text_Encodings_Web__rgctx_fetch_26_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_26
+plt_System_Text_Encodings_Web__rgctx_fetch_26:
+_p_162:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1496]
+br x16
+.word 6087
+_p_163_plt_System_Text_Encodings_Web__rgctx_fetch_27_llvm:
+	.globl _p_163_plt_System_Text_Encodings_Web__rgctx_fetch_27_llvm
+.private_extern _p_163_plt_System_Text_Encodings_Web__rgctx_fetch_27_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_27
+plt_System_Text_Encodings_Web__rgctx_fetch_27:
+_p_163:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1504]
+br x16
+.word 6095
+_p_164_plt_System_Text_Encodings_Web__rgctx_fetch_28_llvm:
+	.globl _p_164_plt_System_Text_Encodings_Web__rgctx_fetch_28_llvm
+.private_extern _p_164_plt_System_Text_Encodings_Web__rgctx_fetch_28_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_28
+plt_System_Text_Encodings_Web__rgctx_fetch_28:
+_p_164:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1512]
+br x16
+.word 6114
+_p_165_plt_System_Text_Encodings_Web__rgctx_fetch_29_llvm:
+	.globl _p_165_plt_System_Text_Encodings_Web__rgctx_fetch_29_llvm
+.private_extern _p_165_plt_System_Text_Encodings_Web__rgctx_fetch_29_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_29
+plt_System_Text_Encodings_Web__rgctx_fetch_29:
+_p_165:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1520]
+br x16
+.word 6124
+_p_166_plt_System_Text_Encodings_Web__rgctx_fetch_30_llvm:
+	.globl _p_166_plt_System_Text_Encodings_Web__rgctx_fetch_30_llvm
+.private_extern _p_166_plt_System_Text_Encodings_Web__rgctx_fetch_30_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_30
+plt_System_Text_Encodings_Web__rgctx_fetch_30:
+_p_166:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1528]
+br x16
+.word 6151
+_p_167_plt_System_Text_Encodings_Web__rgctx_fetch_31_llvm:
+	.globl _p_167_plt_System_Text_Encodings_Web__rgctx_fetch_31_llvm
+.private_extern _p_167_plt_System_Text_Encodings_Web__rgctx_fetch_31_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_31
+plt_System_Text_Encodings_Web__rgctx_fetch_31:
+_p_167:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1536]
+br x16
+.word 6159
+_p_168_plt_System_Text_Encodings_Web__rgctx_fetch_32_llvm:
+	.globl _p_168_plt_System_Text_Encodings_Web__rgctx_fetch_32_llvm
+.private_extern _p_168_plt_System_Text_Encodings_Web__rgctx_fetch_32_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_32
+plt_System_Text_Encodings_Web__rgctx_fetch_32:
+_p_168:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1544]
+br x16
+.word 6167
+_p_169_plt_System_Text_Encodings_Web__rgctx_fetch_33_llvm:
+	.globl _p_169_plt_System_Text_Encodings_Web__rgctx_fetch_33_llvm
+.private_extern _p_169_plt_System_Text_Encodings_Web__rgctx_fetch_33_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_33
+plt_System_Text_Encodings_Web__rgctx_fetch_33:
+_p_169:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1552]
+br x16
+.word 6193
+_p_170_plt_System_Text_Encodings_Web__rgctx_fetch_34_llvm:
+	.globl _p_170_plt_System_Text_Encodings_Web__rgctx_fetch_34_llvm
+.private_extern _p_170_plt_System_Text_Encodings_Web__rgctx_fetch_34_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_34
+plt_System_Text_Encodings_Web__rgctx_fetch_34:
+_p_170:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1560]
+br x16
+.word 6201
+_p_171_plt_System_Text_Encodings_Web__rgctx_fetch_35_llvm:
+	.globl _p_171_plt_System_Text_Encodings_Web__rgctx_fetch_35_llvm
+.private_extern _p_171_plt_System_Text_Encodings_Web__rgctx_fetch_35_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_35
+plt_System_Text_Encodings_Web__rgctx_fetch_35:
+_p_171:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1568]
+br x16
+.word 6220
+_p_172_plt_System_Text_Encodings_Web__rgctx_fetch_36_llvm:
+	.globl _p_172_plt_System_Text_Encodings_Web__rgctx_fetch_36_llvm
+.private_extern _p_172_plt_System_Text_Encodings_Web__rgctx_fetch_36_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_36
+plt_System_Text_Encodings_Web__rgctx_fetch_36:
+_p_172:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1576]
+br x16
+.word 6239
+_p_173_plt_System_Text_Encodings_Web__rgctx_fetch_37_llvm:
+	.globl _p_173_plt_System_Text_Encodings_Web__rgctx_fetch_37_llvm
+.private_extern _p_173_plt_System_Text_Encodings_Web__rgctx_fetch_37_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_37
+plt_System_Text_Encodings_Web__rgctx_fetch_37:
+_p_173:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1584]
+br x16
+.word 6258
+_p_174_plt_System_Text_Encodings_Web__rgctx_fetch_38_llvm:
+	.globl _p_174_plt_System_Text_Encodings_Web__rgctx_fetch_38_llvm
+.private_extern _p_174_plt_System_Text_Encodings_Web__rgctx_fetch_38_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_38
+plt_System_Text_Encodings_Web__rgctx_fetch_38:
+_p_174:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1592]
+br x16
+.word 6284
+_p_175_plt_System_Text_Encodings_Web__rgctx_fetch_39_llvm:
+	.globl _p_175_plt_System_Text_Encodings_Web__rgctx_fetch_39_llvm
+.private_extern _p_175_plt_System_Text_Encodings_Web__rgctx_fetch_39_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_39
+plt_System_Text_Encodings_Web__rgctx_fetch_39:
+_p_175:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1600]
+br x16
+.word 6292
+_p_176_plt_System_Text_Encodings_Web__rgctx_fetch_40_llvm:
+	.globl _p_176_plt_System_Text_Encodings_Web__rgctx_fetch_40_llvm
+.private_extern _p_176_plt_System_Text_Encodings_Web__rgctx_fetch_40_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_40
+plt_System_Text_Encodings_Web__rgctx_fetch_40:
+_p_176:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1608]
+br x16
+.word 6300
+_p_177_plt_System_Text_Encodings_Web__rgctx_fetch_41_llvm:
+	.globl _p_177_plt_System_Text_Encodings_Web__rgctx_fetch_41_llvm
+.private_extern _p_177_plt_System_Text_Encodings_Web__rgctx_fetch_41_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_41
+plt_System_Text_Encodings_Web__rgctx_fetch_41:
+_p_177:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1616]
+br x16
+.word 6320
+_p_178_plt_System_Text_Encodings_Web__rgctx_fetch_42_llvm:
+	.globl _p_178_plt_System_Text_Encodings_Web__rgctx_fetch_42_llvm
+.private_extern _p_178_plt_System_Text_Encodings_Web__rgctx_fetch_42_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_42
+plt_System_Text_Encodings_Web__rgctx_fetch_42:
+_p_178:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1624]
+br x16
+.word 6340
+_p_179_plt_System_Text_Encodings_Web__rgctx_fetch_43_llvm:
+	.globl _p_179_plt_System_Text_Encodings_Web__rgctx_fetch_43_llvm
+.private_extern _p_179_plt_System_Text_Encodings_Web__rgctx_fetch_43_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_43
+plt_System_Text_Encodings_Web__rgctx_fetch_43:
+_p_179:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1632]
+br x16
+.word 6348
+_p_180_plt_System_Text_Encodings_Web__rgctx_fetch_44_llvm:
+	.globl _p_180_plt_System_Text_Encodings_Web__rgctx_fetch_44_llvm
+.private_extern _p_180_plt_System_Text_Encodings_Web__rgctx_fetch_44_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_44
+plt_System_Text_Encodings_Web__rgctx_fetch_44:
+_p_180:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1640]
+br x16
+.word 6367
+_p_181_plt_System_Text_Encodings_Web__rgctx_fetch_45_llvm:
+	.globl _p_181_plt_System_Text_Encodings_Web__rgctx_fetch_45_llvm
+.private_extern _p_181_plt_System_Text_Encodings_Web__rgctx_fetch_45_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_45
+plt_System_Text_Encodings_Web__rgctx_fetch_45:
+_p_181:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1648]
+br x16
+.word 6377
+_p_182_plt_System_Text_Encodings_Web__rgctx_fetch_46_llvm:
+	.globl _p_182_plt_System_Text_Encodings_Web__rgctx_fetch_46_llvm
+.private_extern _p_182_plt_System_Text_Encodings_Web__rgctx_fetch_46_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_46
+plt_System_Text_Encodings_Web__rgctx_fetch_46:
+_p_182:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1656]
+br x16
+.word 6404
+_p_183_plt_System_Text_Encodings_Web__rgctx_fetch_47_llvm:
+	.globl _p_183_plt_System_Text_Encodings_Web__rgctx_fetch_47_llvm
+.private_extern _p_183_plt_System_Text_Encodings_Web__rgctx_fetch_47_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_47
+plt_System_Text_Encodings_Web__rgctx_fetch_47:
+_p_183:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1664]
+br x16
+.word 6412
+_p_184_plt_System_Text_Encodings_Web__rgctx_fetch_48_llvm:
+	.globl _p_184_plt_System_Text_Encodings_Web__rgctx_fetch_48_llvm
+.private_extern _p_184_plt_System_Text_Encodings_Web__rgctx_fetch_48_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_48
+plt_System_Text_Encodings_Web__rgctx_fetch_48:
+_p_184:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1672]
+br x16
+.word 6420
+_p_185_plt_System_Text_Encodings_Web__rgctx_fetch_49_llvm:
+	.globl _p_185_plt_System_Text_Encodings_Web__rgctx_fetch_49_llvm
+.private_extern _p_185_plt_System_Text_Encodings_Web__rgctx_fetch_49_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_49
+plt_System_Text_Encodings_Web__rgctx_fetch_49:
+_p_185:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1680]
+br x16
+.word 6446
+_p_186_plt_System_Text_Encodings_Web__rgctx_fetch_50_llvm:
+	.globl _p_186_plt_System_Text_Encodings_Web__rgctx_fetch_50_llvm
+.private_extern _p_186_plt_System_Text_Encodings_Web__rgctx_fetch_50_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_50
+plt_System_Text_Encodings_Web__rgctx_fetch_50:
+_p_186:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1688]
+br x16
+.word 6454
+_p_187_plt_System_Text_Encodings_Web__rgctx_fetch_51_llvm:
+	.globl _p_187_plt_System_Text_Encodings_Web__rgctx_fetch_51_llvm
+.private_extern _p_187_plt_System_Text_Encodings_Web__rgctx_fetch_51_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_51
+plt_System_Text_Encodings_Web__rgctx_fetch_51:
+_p_187:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1696]
+br x16
+.word 6462
+_p_188_plt_System_Text_Encodings_Web__rgctx_fetch_52_llvm:
+	.globl _p_188_plt_System_Text_Encodings_Web__rgctx_fetch_52_llvm
+.private_extern _p_188_plt_System_Text_Encodings_Web__rgctx_fetch_52_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_52
+plt_System_Text_Encodings_Web__rgctx_fetch_52:
+_p_188:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1704]
+br x16
+.word 6482
+_p_189_plt_System_Text_Encodings_Web__rgctx_fetch_53_llvm:
+	.globl _p_189_plt_System_Text_Encodings_Web__rgctx_fetch_53_llvm
+.private_extern _p_189_plt_System_Text_Encodings_Web__rgctx_fetch_53_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_53
+plt_System_Text_Encodings_Web__rgctx_fetch_53:
+_p_189:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1712]
+br x16
+.word 6502
+_p_190_plt_System_Text_Encodings_Web__rgctx_fetch_54_llvm:
+	.globl _p_190_plt_System_Text_Encodings_Web__rgctx_fetch_54_llvm
+.private_extern _p_190_plt_System_Text_Encodings_Web__rgctx_fetch_54_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_54
+plt_System_Text_Encodings_Web__rgctx_fetch_54:
+_p_190:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1720]
+br x16
+.word 6510
+_p_191_plt_System_Text_Encodings_Web__rgctx_fetch_55_llvm:
+	.globl _p_191_plt_System_Text_Encodings_Web__rgctx_fetch_55_llvm
+.private_extern _p_191_plt_System_Text_Encodings_Web__rgctx_fetch_55_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_55
+plt_System_Text_Encodings_Web__rgctx_fetch_55:
+_p_191:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1728]
+br x16
+.word 6529
+_p_192_plt_System_Text_Encodings_Web__rgctx_fetch_56_llvm:
+	.globl _p_192_plt_System_Text_Encodings_Web__rgctx_fetch_56_llvm
+.private_extern _p_192_plt_System_Text_Encodings_Web__rgctx_fetch_56_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_56
+plt_System_Text_Encodings_Web__rgctx_fetch_56:
+_p_192:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1736]
+br x16
+.word 6539
+_p_193_plt_System_Text_Encodings_Web__rgctx_fetch_57_llvm:
+	.globl _p_193_plt_System_Text_Encodings_Web__rgctx_fetch_57_llvm
+.private_extern _p_193_plt_System_Text_Encodings_Web__rgctx_fetch_57_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_57
+plt_System_Text_Encodings_Web__rgctx_fetch_57:
+_p_193:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1744]
+br x16
+.word 6566
+_p_194_plt_System_Text_Encodings_Web__rgctx_fetch_58_llvm:
+	.globl _p_194_plt_System_Text_Encodings_Web__rgctx_fetch_58_llvm
+.private_extern _p_194_plt_System_Text_Encodings_Web__rgctx_fetch_58_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_58
+plt_System_Text_Encodings_Web__rgctx_fetch_58:
+_p_194:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1752]
+br x16
+.word 6574
+_p_195_plt_System_Text_Encodings_Web__rgctx_fetch_59_llvm:
+	.globl _p_195_plt_System_Text_Encodings_Web__rgctx_fetch_59_llvm
+.private_extern _p_195_plt_System_Text_Encodings_Web__rgctx_fetch_59_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_59
+plt_System_Text_Encodings_Web__rgctx_fetch_59:
+_p_195:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1760]
+br x16
+.word 6582
+_p_196_plt_System_Text_Encodings_Web__rgctx_fetch_60_llvm:
+	.globl _p_196_plt_System_Text_Encodings_Web__rgctx_fetch_60_llvm
+.private_extern _p_196_plt_System_Text_Encodings_Web__rgctx_fetch_60_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_60
+plt_System_Text_Encodings_Web__rgctx_fetch_60:
+_p_196:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1768]
+br x16
+.word 6601
+_p_197_plt_System_Text_Encodings_Web__rgctx_fetch_61_llvm:
+	.globl _p_197_plt_System_Text_Encodings_Web__rgctx_fetch_61_llvm
+.private_extern _p_197_plt_System_Text_Encodings_Web__rgctx_fetch_61_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_61
+plt_System_Text_Encodings_Web__rgctx_fetch_61:
+_p_197:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1776]
+br x16
+.word 6609
+_p_198_plt_System_Text_Encodings_Web__rgctx_fetch_62_llvm:
+	.globl _p_198_plt_System_Text_Encodings_Web__rgctx_fetch_62_llvm
+.private_extern _p_198_plt_System_Text_Encodings_Web__rgctx_fetch_62_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_62
+plt_System_Text_Encodings_Web__rgctx_fetch_62:
+_p_198:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1784]
+br x16
+.word 6624
+_p_199_plt_System_Text_Encodings_Web__rgctx_fetch_63_llvm:
+	.globl _p_199_plt_System_Text_Encodings_Web__rgctx_fetch_63_llvm
+.private_extern _p_199_plt_System_Text_Encodings_Web__rgctx_fetch_63_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_63
+plt_System_Text_Encodings_Web__rgctx_fetch_63:
+_p_199:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1792]
+br x16
+.word 6632
+_p_200_plt_System_Text_Encodings_Web__rgctx_fetch_64_llvm:
+	.globl _p_200_plt_System_Text_Encodings_Web__rgctx_fetch_64_llvm
+.private_extern _p_200_plt_System_Text_Encodings_Web__rgctx_fetch_64_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_64
+plt_System_Text_Encodings_Web__rgctx_fetch_64:
+_p_200:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1800]
+br x16
+.word 6658
+_p_201_plt_System_Text_Encodings_Web__rgctx_fetch_65_llvm:
+	.globl _p_201_plt_System_Text_Encodings_Web__rgctx_fetch_65_llvm
+.private_extern _p_201_plt_System_Text_Encodings_Web__rgctx_fetch_65_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_65
+plt_System_Text_Encodings_Web__rgctx_fetch_65:
+_p_201:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1808]
+br x16
+.word 6666
+_p_202_plt_System_Text_Encodings_Web__rgctx_fetch_66_llvm:
+	.globl _p_202_plt_System_Text_Encodings_Web__rgctx_fetch_66_llvm
+.private_extern _p_202_plt_System_Text_Encodings_Web__rgctx_fetch_66_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_66
+plt_System_Text_Encodings_Web__rgctx_fetch_66:
+_p_202:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1816]
+br x16
+.word 6676
+_p_203_plt_System_Text_Encodings_Web__rgctx_fetch_67_llvm:
+	.globl _p_203_plt_System_Text_Encodings_Web__rgctx_fetch_67_llvm
+.private_extern _p_203_plt_System_Text_Encodings_Web__rgctx_fetch_67_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_67
+plt_System_Text_Encodings_Web__rgctx_fetch_67:
+_p_203:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1824]
+br x16
+.word 6684
+_p_204_plt_System_Text_Encodings_Web__rgctx_fetch_68_llvm:
+	.globl _p_204_plt_System_Text_Encodings_Web__rgctx_fetch_68_llvm
+.private_extern _p_204_plt_System_Text_Encodings_Web__rgctx_fetch_68_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_68
+plt_System_Text_Encodings_Web__rgctx_fetch_68:
+_p_204:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1832]
+br x16
+.word 6704
+_p_205_plt_System_Text_Encodings_Web__rgctx_fetch_69_llvm:
+	.globl _p_205_plt_System_Text_Encodings_Web__rgctx_fetch_69_llvm
+.private_extern _p_205_plt_System_Text_Encodings_Web__rgctx_fetch_69_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_69
+plt_System_Text_Encodings_Web__rgctx_fetch_69:
+_p_205:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1840]
+br x16
+.word 6731
+_p_206_plt_System_Text_Encodings_Web__rgctx_fetch_70_llvm:
+	.globl _p_206_plt_System_Text_Encodings_Web__rgctx_fetch_70_llvm
+.private_extern _p_206_plt_System_Text_Encodings_Web__rgctx_fetch_70_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_70
+plt_System_Text_Encodings_Web__rgctx_fetch_70:
+_p_206:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1848]
+br x16
+.word 6739
+_p_207_plt_System_Text_Encodings_Web__rgctx_fetch_71_llvm:
+	.globl _p_207_plt_System_Text_Encodings_Web__rgctx_fetch_71_llvm
+.private_extern _p_207_plt_System_Text_Encodings_Web__rgctx_fetch_71_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_71
+plt_System_Text_Encodings_Web__rgctx_fetch_71:
+_p_207:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1856]
+br x16
+.word 6758
+_p_208_plt_System_Text_Encodings_Web__rgctx_fetch_72_llvm:
+	.globl _p_208_plt_System_Text_Encodings_Web__rgctx_fetch_72_llvm
+.private_extern _p_208_plt_System_Text_Encodings_Web__rgctx_fetch_72_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_72
+plt_System_Text_Encodings_Web__rgctx_fetch_72:
+_p_208:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1864]
+br x16
+.word 6766
+_p_209_plt_System_Text_Encodings_Web__rgctx_fetch_73_llvm:
+	.globl _p_209_plt_System_Text_Encodings_Web__rgctx_fetch_73_llvm
+.private_extern _p_209_plt_System_Text_Encodings_Web__rgctx_fetch_73_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_73
+plt_System_Text_Encodings_Web__rgctx_fetch_73:
+_p_209:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1872]
+br x16
+.word 6785
+_p_210_plt_System_Text_Encodings_Web__rgctx_fetch_74_llvm:
+	.globl _p_210_plt_System_Text_Encodings_Web__rgctx_fetch_74_llvm
+.private_extern _p_210_plt_System_Text_Encodings_Web__rgctx_fetch_74_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_74
+plt_System_Text_Encodings_Web__rgctx_fetch_74:
+_p_210:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1880]
+br x16
+.word 6795
+_p_211_plt_System_Text_Encodings_Web__rgctx_fetch_75_llvm:
+	.globl _p_211_plt_System_Text_Encodings_Web__rgctx_fetch_75_llvm
+.private_extern _p_211_plt_System_Text_Encodings_Web__rgctx_fetch_75_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_75
+plt_System_Text_Encodings_Web__rgctx_fetch_75:
+_p_211:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1888]
+br x16
+.word 6822
+_p_212_plt_System_Text_Encodings_Web__rgctx_fetch_76_llvm:
+	.globl _p_212_plt_System_Text_Encodings_Web__rgctx_fetch_76_llvm
+.private_extern _p_212_plt_System_Text_Encodings_Web__rgctx_fetch_76_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_76
+plt_System_Text_Encodings_Web__rgctx_fetch_76:
+_p_212:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1896]
+br x16
+.word 6830
+_p_213_plt_System_Text_Encodings_Web__rgctx_fetch_77_llvm:
+	.globl _p_213_plt_System_Text_Encodings_Web__rgctx_fetch_77_llvm
+.private_extern _p_213_plt_System_Text_Encodings_Web__rgctx_fetch_77_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_77
+plt_System_Text_Encodings_Web__rgctx_fetch_77:
+_p_213:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1904]
+br x16
+.word 6838
+_p_214_plt_System_Text_Encodings_Web__rgctx_fetch_78_llvm:
+	.globl _p_214_plt_System_Text_Encodings_Web__rgctx_fetch_78_llvm
+.private_extern _p_214_plt_System_Text_Encodings_Web__rgctx_fetch_78_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_78
+plt_System_Text_Encodings_Web__rgctx_fetch_78:
+_p_214:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1912]
+br x16
+.word 6864
+_p_215_plt_System_Text_Encodings_Web__rgctx_fetch_79_llvm:
+	.globl _p_215_plt_System_Text_Encodings_Web__rgctx_fetch_79_llvm
+.private_extern _p_215_plt_System_Text_Encodings_Web__rgctx_fetch_79_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_79
+plt_System_Text_Encodings_Web__rgctx_fetch_79:
+_p_215:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1920]
+br x16
+.word 6872
+_p_216_plt_System_Text_Encodings_Web__rgctx_fetch_80_llvm:
+	.globl _p_216_plt_System_Text_Encodings_Web__rgctx_fetch_80_llvm
+.private_extern _p_216_plt_System_Text_Encodings_Web__rgctx_fetch_80_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_80
+plt_System_Text_Encodings_Web__rgctx_fetch_80:
+_p_216:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1928]
+br x16
+.word 6891
+_p_217_plt_System_Text_Encodings_Web__rgctx_fetch_81_llvm:
+	.globl _p_217_plt_System_Text_Encodings_Web__rgctx_fetch_81_llvm
+.private_extern _p_217_plt_System_Text_Encodings_Web__rgctx_fetch_81_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_81
+plt_System_Text_Encodings_Web__rgctx_fetch_81:
+_p_217:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1936]
+br x16
+.word 6910
+_p_218_plt_System_Text_Encodings_Web__rgctx_fetch_82_llvm:
+	.globl _p_218_plt_System_Text_Encodings_Web__rgctx_fetch_82_llvm
+.private_extern _p_218_plt_System_Text_Encodings_Web__rgctx_fetch_82_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_82
+plt_System_Text_Encodings_Web__rgctx_fetch_82:
+_p_218:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1944]
+br x16
+.word 6929
+_p_219_plt_System_Text_Encodings_Web__rgctx_fetch_83_llvm:
+	.globl _p_219_plt_System_Text_Encodings_Web__rgctx_fetch_83_llvm
+.private_extern _p_219_plt_System_Text_Encodings_Web__rgctx_fetch_83_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_83
+plt_System_Text_Encodings_Web__rgctx_fetch_83:
+_p_219:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1952]
+br x16
+.word 6948
+_p_220_plt_System_Text_Encodings_Web__rgctx_fetch_84_llvm:
+	.globl _p_220_plt_System_Text_Encodings_Web__rgctx_fetch_84_llvm
+.private_extern _p_220_plt_System_Text_Encodings_Web__rgctx_fetch_84_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_84
+plt_System_Text_Encodings_Web__rgctx_fetch_84:
+_p_220:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1960]
+br x16
+.word 6968
+_p_221_plt_System_Text_Encodings_Web__rgctx_fetch_85_llvm:
+	.globl _p_221_plt_System_Text_Encodings_Web__rgctx_fetch_85_llvm
+.private_extern _p_221_plt_System_Text_Encodings_Web__rgctx_fetch_85_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_85
+plt_System_Text_Encodings_Web__rgctx_fetch_85:
+_p_221:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1968]
+br x16
+.word 6988
+_p_222_plt_System_Text_Encodings_Web__rgctx_fetch_86_llvm:
+	.globl _p_222_plt_System_Text_Encodings_Web__rgctx_fetch_86_llvm
+.private_extern _p_222_plt_System_Text_Encodings_Web__rgctx_fetch_86_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_86
+plt_System_Text_Encodings_Web__rgctx_fetch_86:
+_p_222:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1976]
+br x16
+.word 6996
+_p_223_plt_System_Text_Encodings_Web__rgctx_fetch_87_llvm:
+	.globl _p_223_plt_System_Text_Encodings_Web__rgctx_fetch_87_llvm
+.private_extern _p_223_plt_System_Text_Encodings_Web__rgctx_fetch_87_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_87
+plt_System_Text_Encodings_Web__rgctx_fetch_87:
+_p_223:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1984]
+br x16
+.word 7015
+_p_224_plt_System_Text_Encodings_Web__rgctx_fetch_88_llvm:
+	.globl _p_224_plt_System_Text_Encodings_Web__rgctx_fetch_88_llvm
+.private_extern _p_224_plt_System_Text_Encodings_Web__rgctx_fetch_88_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_88
+plt_System_Text_Encodings_Web__rgctx_fetch_88:
+_p_224:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #1992]
+br x16
+.word 7045
+_p_225_plt_System_Text_Encodings_Web__rgctx_fetch_89_llvm:
+	.globl _p_225_plt_System_Text_Encodings_Web__rgctx_fetch_89_llvm
+.private_extern _p_225_plt_System_Text_Encodings_Web__rgctx_fetch_89_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_89
+plt_System_Text_Encodings_Web__rgctx_fetch_89:
+_p_225:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2000]
+br x16
+.word 7053
+_p_226_plt_System_Text_Encodings_Web__rgctx_fetch_90_llvm:
+	.globl _p_226_plt_System_Text_Encodings_Web__rgctx_fetch_90_llvm
+.private_extern _p_226_plt_System_Text_Encodings_Web__rgctx_fetch_90_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_90
+plt_System_Text_Encodings_Web__rgctx_fetch_90:
+_p_226:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2008]
+br x16
+.word 7079
+_p_227_plt_System_Text_Encodings_Web__rgctx_fetch_91_llvm:
+	.globl _p_227_plt_System_Text_Encodings_Web__rgctx_fetch_91_llvm
+.private_extern _p_227_plt_System_Text_Encodings_Web__rgctx_fetch_91_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_91
+plt_System_Text_Encodings_Web__rgctx_fetch_91:
+_p_227:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2016]
+br x16
+.word 7087
+_p_228_plt_System_Text_Encodings_Web_string_memcpy_byte__byte__int_llvm:
+	.globl _p_228_plt_System_Text_Encodings_Web_string_memcpy_byte__byte__int_llvm
+.private_extern _p_228_plt_System_Text_Encodings_Web_string_memcpy_byte__byte__int_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_string_memcpy_byte__byte__int
+plt_System_Text_Encodings_Web_string_memcpy_byte__byte__int:
+_p_228:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2024]
+br x16
+.word 7095
+_p_229_plt_System_Text_Encodings_Web__rgctx_fetch_92_llvm:
+	.globl _p_229_plt_System_Text_Encodings_Web__rgctx_fetch_92_llvm
+.private_extern _p_229_plt_System_Text_Encodings_Web__rgctx_fetch_92_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_92
+plt_System_Text_Encodings_Web__rgctx_fetch_92:
+_p_229:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2032]
+br x16
+.word 7122
+_p_230_plt_System_Text_Encodings_Web__rgctx_fetch_93_llvm:
+	.globl _p_230_plt_System_Text_Encodings_Web__rgctx_fetch_93_llvm
+.private_extern _p_230_plt_System_Text_Encodings_Web__rgctx_fetch_93_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_93
+plt_System_Text_Encodings_Web__rgctx_fetch_93:
+_p_230:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2040]
+br x16
+.word 7130
+_p_231_plt_System_Text_Encodings_Web__rgctx_fetch_94_llvm:
+	.globl _p_231_plt_System_Text_Encodings_Web__rgctx_fetch_94_llvm
+.private_extern _p_231_plt_System_Text_Encodings_Web__rgctx_fetch_94_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_94
+plt_System_Text_Encodings_Web__rgctx_fetch_94:
+_p_231:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2048]
+br x16
+.word 7164
+_p_232_plt_System_Text_Encodings_Web__rgctx_fetch_95_llvm:
+	.globl _p_232_plt_System_Text_Encodings_Web__rgctx_fetch_95_llvm
+.private_extern _p_232_plt_System_Text_Encodings_Web__rgctx_fetch_95_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_95
+plt_System_Text_Encodings_Web__rgctx_fetch_95:
+_p_232:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2056]
+br x16
+.word 7194
+_p_233_plt_System_Text_Encodings_Web__rgctx_fetch_96_llvm:
+	.globl _p_233_plt_System_Text_Encodings_Web__rgctx_fetch_96_llvm
+.private_extern _p_233_plt_System_Text_Encodings_Web__rgctx_fetch_96_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_96
+plt_System_Text_Encodings_Web__rgctx_fetch_96:
+_p_233:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2064]
+br x16
+.word 7202
+_p_234_plt_System_Text_Encodings_Web__rgctx_fetch_97_llvm:
+	.globl _p_234_plt_System_Text_Encodings_Web__rgctx_fetch_97_llvm
+.private_extern _p_234_plt_System_Text_Encodings_Web__rgctx_fetch_97_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_97
+plt_System_Text_Encodings_Web__rgctx_fetch_97:
+_p_234:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2072]
+br x16
+.word 7236
+_p_235_plt_System_Text_Encodings_Web_System_Runtime_RuntimeImports_Memmove_wbarrier_byte__byte__uint_intptr_llvm:
+	.globl _p_235_plt_System_Text_Encodings_Web_System_Runtime_RuntimeImports_Memmove_wbarrier_byte__byte__uint_intptr_llvm
+.private_extern _p_235_plt_System_Text_Encodings_Web_System_Runtime_RuntimeImports_Memmove_wbarrier_byte__byte__uint_intptr_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web_System_Runtime_RuntimeImports_Memmove_wbarrier_byte__byte__uint_intptr
+plt_System_Text_Encodings_Web_System_Runtime_RuntimeImports_Memmove_wbarrier_byte__byte__uint_intptr:
+_p_235:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2080]
+br x16
+.word 7244
+_p_236_plt_System_Text_Encodings_Web__rgctx_fetch_98_llvm:
+	.globl _p_236_plt_System_Text_Encodings_Web__rgctx_fetch_98_llvm
+.private_extern _p_236_plt_System_Text_Encodings_Web__rgctx_fetch_98_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_98
+plt_System_Text_Encodings_Web__rgctx_fetch_98:
+_p_236:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2088]
+br x16
+.word 7264
+_p_237_plt_System_Text_Encodings_Web__rgctx_fetch_99_llvm:
+	.globl _p_237_plt_System_Text_Encodings_Web__rgctx_fetch_99_llvm
+.private_extern _p_237_plt_System_Text_Encodings_Web__rgctx_fetch_99_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_99
+plt_System_Text_Encodings_Web__rgctx_fetch_99:
+_p_237:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2096]
+br x16
+.word 7279
+_p_238_plt_System_Text_Encodings_Web__rgctx_fetch_100_llvm:
+	.globl _p_238_plt_System_Text_Encodings_Web__rgctx_fetch_100_llvm
+.private_extern _p_238_plt_System_Text_Encodings_Web__rgctx_fetch_100_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_100
+plt_System_Text_Encodings_Web__rgctx_fetch_100:
+_p_238:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2104]
+br x16
+.word 7296
+_p_239_plt_System_Text_Encodings_Web__rgctx_fetch_101_llvm:
+	.globl _p_239_plt_System_Text_Encodings_Web__rgctx_fetch_101_llvm
+.private_extern _p_239_plt_System_Text_Encodings_Web__rgctx_fetch_101_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_101
+plt_System_Text_Encodings_Web__rgctx_fetch_101:
+_p_239:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2112]
+br x16
+.word 7304
+_p_240_plt_System_Text_Encodings_Web__rgctx_fetch_102_llvm:
+	.globl _p_240_plt_System_Text_Encodings_Web__rgctx_fetch_102_llvm
+.private_extern _p_240_plt_System_Text_Encodings_Web__rgctx_fetch_102_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_102
+plt_System_Text_Encodings_Web__rgctx_fetch_102:
+_p_240:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2120]
+br x16
+.word 7338
+_p_241_plt_System_Text_Encodings_Web__rgctx_fetch_103_llvm:
+	.globl _p_241_plt_System_Text_Encodings_Web__rgctx_fetch_103_llvm
+.private_extern _p_241_plt_System_Text_Encodings_Web__rgctx_fetch_103_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_103
+plt_System_Text_Encodings_Web__rgctx_fetch_103:
+_p_241:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2128]
+br x16
+.word 7353
+_p_242_plt_System_Text_Encodings_Web__rgctx_fetch_104_llvm:
+	.globl _p_242_plt_System_Text_Encodings_Web__rgctx_fetch_104_llvm
+.private_extern _p_242_plt_System_Text_Encodings_Web__rgctx_fetch_104_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_104
+plt_System_Text_Encodings_Web__rgctx_fetch_104:
+_p_242:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2136]
+br x16
+.word 7374
+_p_243_plt_System_Text_Encodings_Web__rgctx_fetch_105_llvm:
+	.globl _p_243_plt_System_Text_Encodings_Web__rgctx_fetch_105_llvm
+.private_extern _p_243_plt_System_Text_Encodings_Web__rgctx_fetch_105_llvm
+	.no_dead_strip plt_System_Text_Encodings_Web__rgctx_fetch_105
+plt_System_Text_Encodings_Web__rgctx_fetch_105:
+_p_243:
+adrp x16, mono_aot_System_Text_Encodings_Web_got@PAGE+0
+add x16, x16, mono_aot_System_Text_Encodings_Web_got@PAGEOFF
+ldr x16, [x16, #2144]
+br x16
+.word 7402
+plt_end:
+_mono_aot_System_Text_Encodings_Webplt_end:
+	.globl _mono_aot_System_Text_Encodings_Webplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Text_Encodings_Webjit_got:
+	.globl _mono_aot_System_Text_Encodings_Webjit_got
+.lcomm mono_aot_System_Text_Encodings_Web_got, 2152
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_System_Text_Encodings_Webglobals:
+	.globl _mono_aot_System_Text_Encodings_Webglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_2:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 16,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_1:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 16,16
+LDIFF_SYM7=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM8=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_0:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM11=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM12=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM13=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM13
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM14=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM14
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM15=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM15
+	.byte 2
+	.asciz "System.Text.Encodings.Web.SpanUtility:IsValidIndex<T_GSHAREDVT>"
+	.asciz "System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int"
+
+	.byte 0,0
+	.quad System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int
+	.quad Lme_1ce
+
+	.byte 2,118,16,3
+	.asciz "span"
+
+LDIFF_SYM16=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM16
+	.byte 1,80,3
+	.asciz "index"
+
+LDIFF_SYM17=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM17
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM18=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM18
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int
+
+LDIFF_SYM19=Lme_1ce - System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_ReadOnlySpan_1_T_GSHAREDVT_int
+	.long LDIFF_SYM19
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Text.Encodings.Web.SpanUtility:IsValidIndex<T_GSHAREDVT>"
+	.asciz "System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int"
+
+	.byte 0,0
+	.quad System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int
+	.quad Lme_1cf
+
+	.byte 2,118,16,3
+	.asciz "span"
+
+LDIFF_SYM20=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM20
+	.byte 1,80,3
+	.asciz "index"
+
+LDIFF_SYM21=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM21
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM22=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM22
+Lfde1_start:
+
+	.long 0
+	.align 3
+	.quad System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int
+
+LDIFF_SYM23=Lme_1cf - System_Text_Encodings_Web_SpanUtility_IsValidIndex_T_GSHAREDVT_System_Span_1_T_GSHAREDVT_int
+	.long LDIFF_SYM23
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde1_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.text
+	.align 3
+mem_end:

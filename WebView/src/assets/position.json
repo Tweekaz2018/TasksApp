@@ -1,0 +1,22 @@
+{
+    "Id": 10,
+    "Label": "Солдат",
+    "Priority": 1,
+    "Users": [
+        {
+            "Id": 0,
+            "Login": "Tweekaz",
+            "ViewName": "Vlad Buyalo"
+        },
+        {
+            "Id": 1,
+            "Login": "Zori",
+            "ViewName": "Зорянка"
+        },
+        {
+            "Id": 2,
+            "Login": "Tweekaz",
+            "ViewName": "Vlad Buyalo"
+        }
+    ]
+}

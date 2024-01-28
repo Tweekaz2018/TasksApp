@@ -1,0 +1,36 @@
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">{{Position.Label}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Додати користувача:</label>
+                    <input class="form-control" [(ngModel)]="searchText" (change)="Search()" />
+                    <br />
+                    <div class="list-group" *ngIf="_showFilter == true">
+                        <button *ngFor="let user of _filteredUsers" (click)="Append(user.Login)"
+                            class="list-group-item list-group-item-action">{{user.ViewName}}({{user.Login}})</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Додані: </label>
+                    <div class="list-group">
+                        <li *ngFor="let user of Position.Users"
+                            class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <p style="vertical-align: middle;">{{user.ViewName}}({{user.Login}})</p>
+                                <button class="btn btn-danger" (click)="RemoveUser(user.Login)">Виключити</button>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    (click)="DismisModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

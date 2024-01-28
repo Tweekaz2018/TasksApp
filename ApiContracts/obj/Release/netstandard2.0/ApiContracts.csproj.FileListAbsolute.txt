@@ -1,0 +1,10 @@
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Release/netstandard2.0/ApiContracts.deps.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Release/netstandard2.0/ApiContracts.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Release/netstandard2.0/ApiContracts.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.csproj.AssemblyReference.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.AssemblyInfoInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.AssemblyInfo.cs
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.csproj.CoreCompileInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/obj/Release/netstandard2.0/ApiContracts.pdb

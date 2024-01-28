@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-2 offset-10">
+        <a href="/admin/groups/create" class="btn btn-success">Створити</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-striped">
+            <thead>
+                <th scope="col">Назва групи</th>
+                <th scope="col">Кільки юзерів</th>
+                <th scope="col">Кількість підрозділів</th>
+                <th scope="col">Змінити учасників</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let group of groups">
+                    <td>{{group.Label}}</td>
+                    <td>{{group.Users.length}}</td>
+                    <td>{{group.Units.length}}</td>
+                    <td><button class="btn btn-secondary" [routerLink]="['/admin/groups/edit/', group.Id]">Докладніше..</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

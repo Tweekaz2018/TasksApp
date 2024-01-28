@@ -1,0 +1,42 @@
+{
+    "Login": "Meddok",
+    "ViewName": "Вася Медок",
+    "IsActive": true,
+    "Position": {
+        "Id": 0,
+        "Label": "Тормоз"
+    },
+    "Unit": {
+        "Id": 1,
+        "Label": "Група розвідки"
+    },
+    "UserGroup": [
+        {
+            "Id": 0,
+            "Label": "Керівник підрозділу",
+            "Access": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 1,
+            "Label": "Сержант",
+            "Access": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 0,
+            "Label": "Вася",
+            "Access": [
+                0,
+                1,
+                2
+            ]
+        }
+    ]
+}

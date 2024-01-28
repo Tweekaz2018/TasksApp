@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435380304527",
+    "project_id": "armyapptest",
+    "storage_bucket": "armyapptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435380304527:android:a0c57339c8470a8550cefa",
+        "android_client_info": {
+          "package_name": "com.vladbuyalo.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRzsPLVuzGk6klu-KUKjIqkk-h4IUieV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

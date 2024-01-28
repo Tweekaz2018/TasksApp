@@ -1,0 +1,3 @@
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Debug/netstandard2.0/win-x64/publish/ApiContracts.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Debug/netstandard2.0/win-x64/publish/ApiContracts.deps.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/ApiContracts/bin/Debug/netstandard2.0/win-x64/publish/ApiContracts.pdb

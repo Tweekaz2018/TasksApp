@@ -1,0 +1,31 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Проекти
+            </th>
+            <th *ngIf="Tasks != undefined">
+                Задачі
+            </th>
+            <th colspan="3">
+                <button class="btn btn-success" (click)="OpenModal()">Створити задачу</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <project-tasks-main [Projects]="Projects"
+                    (onSelectProject)="onProjectSelect($event)"></project-tasks-main>
+            </td>
+            <td>
+                <taskslist-tasks-main *ngIf="Tasks.length > 0" [Tasks]="Tasks" (onSelectTask)="onTaskSelect($event)"></taskslist-tasks-main>
+            </td>
+            <td colspan="3">
+                <taskdetails-tasks-main [SetTask]="Task"></taskdetails-tasks-main>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<createtask-tasks-main [Projects]="Projects" [createTaskModal]="openModal" (onClose)="onClose($event)"></createtask-tasks-main>

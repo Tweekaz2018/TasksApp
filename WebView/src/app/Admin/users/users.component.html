@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-2 offset-10">
+        <a href="/admin/users/createuser" class="btn btn-primary">Створити</a>
+    </div>
+</div>
+
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Логін</th>
+                <th scope="col">Видиме ім'я</th>
+                <th scope="col">Активний</th>
+                <th scope="col">Додатково...</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.Login}}</td>
+                <td>{{user.ViewName}}</td>
+                <td>{{user.IsActive}}</td>
+                <td><button class="btn btn-success" (click)="openPopup(user.Id)">Показати повне інфо</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">{{user?.ViewName}}</h4>
+            </div>
+            <div class="modal-body">
+                <b>Логін: </b>{{user?.Login}}
+                <p *ngIf="user?.IsActive == false" class="text-bg-danger">Неактивний</p>
+                <br>
+                <b>Підрозділ: </b><a href="/admin/unit/{{user?.Unit?.Id}}" target="_blank">{{user?.Unit?.Label}}</a>: <a
+                    href="/admin/unit/{{user?.Unit?.Id}}/{{user?.Position?.Id}}" _target="_blank">{{user?.Position?.Label}}</a>
+                <br>
+                <b>Учасник груп: </b>
+                <div class="list-group">
+                    <a *ngFor="let group of user?.Groups" href="/admin/group/{{group.Id}}"
+                        class="list-group-item list-group-item-action">
+                        {{group.Label}}
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" (click)="closePopup()">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

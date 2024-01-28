@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col offset-10">
+        <button class="btn btn-success" (click)="CreateNewProject()">Створити проект</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <table class="table table-stripped">
+            <thead *ngIf="Projects.length > 0">
+                <tr>
+                    <td>Назва проекту</td>
+                    <td>Редагувати учасників</td>
+                    <td>Редагувати адмінів</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let project of Projects">
+                    <td>{{project.Label}}</td>
+                    <td><button class="btn btn-primary" (click)="EditParticipants(project.Id)">Редагувати учасників</button></td>
+                    <td><button class="btn btn-secondary" (click)="EditAdmins(project.Id)">Редагувати адмінів</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<editprojectadmins-main [Id]="SelectedId" (onSave)="onClose()" [showEditAdminModal]="_editAdminsModal"></editprojectadmins-main>
+<editprojectunits-main [Id]="SelectedId" (onSave)="onClose()" [showEditUnitsModal]="_editUnitsModal"></editprojectunits-main>

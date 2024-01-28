@@ -1,0 +1,5 @@
+[
+    {"Id": 0, "Login": "Tweekaz", "ViewName":"Vlad Buyalo", "IsActive": true},
+    {"Id": 1, "Login": "Zori", "ViewName":"Зорянка", "IsActive": true},
+    {"Id": 2, "Login": "Meddok", "ViewName":"Вася Медок", "IsActive": false}
+]

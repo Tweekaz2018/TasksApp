@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LaunchScreen.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>LaunchScreen.nib</LogicalName>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/Main.storyboardc/UINavigationController-vC3-pB-5Vb.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/UINavigationController-vC3-pB-5Vb.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhone/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/Main.storyboardc/UISplitViewController-H1p-Uh-vWS.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/UISplitViewController-H1p-Uh-vWS.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhone/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/Main.storyboardc/JEX-9P-axG-view-svH-Pt-448.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/JEX-9P-axG-view-svH-Pt-448.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhone/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/Main.storyboardc/7bK-jq-Zjz-view-r7i-6Z-zg0.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/7bK-jq-Zjz-view-r7i-6Z-zg0.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhone/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/Main.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhone/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-3">
+        <button class="btn btn-ligth btn-block" (click)="goBack()"> << </button>
+    </div>
+    <div class="col-9">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{Position?.Label}}</h5>
+                <div class="list-group">
+                    <a *ngFor="let user of Position?.Users" href="/users/{{user?.Login}}" class="list-group-item list-group-item-action">{{user.ViewName}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

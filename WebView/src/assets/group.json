@@ -1,0 +1,29 @@
+{
+    "Id": 0,
+    "Label": "Командування",
+    "Units": [
+        {
+            "Id": 0
+        },
+        {
+            "Id": 1
+        }
+    ],
+    "Users": [
+        {
+            "Id": 0,
+            "ViewName" : "Зорянка",
+            "Login" : "Zori"
+        },
+        {
+            "Id": 1,
+            "ViewName" : "Вася Мудак",
+            "Login" : "Medok"
+        }
+    ],
+    "Accesses": [
+        1,
+        2,
+        3
+    ]
+}

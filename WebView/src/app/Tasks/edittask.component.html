@@ -1,0 +1,43 @@
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Змінити задачу</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Тема: </label>
+                    <input [(ngModel)]="Label" value="{{this.Task?.Label}}" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Опис:</label>
+                    <textarea [(ngModel)]="Description" value="{{this.Task?.Description}}" name="Description" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Пріоритет:</label>
+                    <select [(ngModel)]="Priority" class="form-control">
+                        <option *ngFor="let enum of PriorityEnum | keyvalue">
+                            {{ enum.value}}
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Дедлайн:</label>
+                    <input [(ngModel)]="EndDate" type="date" class="form-control" value="{{this.Task?.EndDate}}"/>
+                </div>
+                <div class="form-group">
+                    <label>Виконавець:</label>
+                    <input [(ngModel)]="searchString" value="{{Task?.Executor?.ViewName}}" class="form-control" (ngModelChange)="SearchUser()"/>
+                    <div class="list-group">
+                        <button *ngFor="let user of _filteredUsers" (click)="SelectUser(user.Id, user.ViewName)" type="button" class="list-group-item list-group-item-action">{{user.ViewName}}</button>
+                      </div>
+                </div>
+            </div>
+            <div class="modal-footer"> 
+                <button class="btn btn-success" (click)="SaveData()">Зберегти</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    (click)="DismisModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

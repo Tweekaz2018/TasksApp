@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-2 offset-5">
+        <div class="form-group">
+            <label>Логін: </label>
+            <input class="form-control" [(ngModel)]="Login" />
+        </div>
+        <div class="form-group">
+            <label>Пароль: </label>
+            <input class="form-control" type="password" [(ngModel)]="Password" />
+        </div>
+        <small *ngIf="wrongPassword" class="text-danger">Не вірний пароль</small>
+        <button class="btn btn-success" (click)="CheckPassword()">Підтвердити</button>
+    </div>
+</div>

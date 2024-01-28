@@ -1,0 +1,29 @@
+[
+    {
+        "Id": 0,
+        "Label": "Командир роти",
+        "Priority": 100
+    },
+    {
+        "Id": 0,
+        "Label": "Замполіт роти",
+        "Priority": 98
+    },
+    {
+        "Id": 0,
+        "Label": "Солдат",
+        "Priority": 1,
+        "Users": [
+            {
+                "Id": 0,
+                "Login": "Tweekaz",
+                "ViewName": "Vlad Buyalo"
+            }
+        ]
+    },
+    {
+        "Id": 0,
+        "Label": "Головний сержант роти",
+        "Priority": 99
+    }
+]

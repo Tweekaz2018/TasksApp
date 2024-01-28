@@ -1,0 +1,5 @@
+RemoveDynamicRegistrar:true
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/bin/iPhone/Debug/mobile.ios.app:/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/mobile.ios.exe
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/bin/iPhone/Debug/mobile.ios.app:/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/bin/iPhone/Debug/mobile.ios.app:/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/bin/iPhone/Debug/mobile.ios.app:/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll

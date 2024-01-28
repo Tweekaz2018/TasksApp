@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FTdWsF1fcH2hz42eRtX/dnMAiO38J2u2d5PpHIzL3afiEMCqIoA55/iXudPkWrhTOgKZUOukspV83YBZg/P8yA==",
+  "success": true,
+  "projectFilePath": "/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/mobile.ios.csproj",
+  "expectedPackageFiles": [
+    "/Users/vladbuyalo/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

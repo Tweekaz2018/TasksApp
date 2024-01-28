@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-12">
+        <div class="form-group">
+            <label>Назва: </label>
+            <input class="form-control" [(ngModel)]="userGroup.Label" />
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-9">
+                    <input class="form-control" [(ngModel)]="searchString">
+                </div>
+                <div class="col-3">
+                    <button type="submit" class="btn btn-primary btn-block" (click)="Search()">Пошук</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="list-group" *ngIf="show == true">
+                <button *ngFor="let user of filteredList" (click)="Append(user.Login)"
+                    class="list-group-item list-group-item-action">{{user.ViewName}}({{user.Login}})</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Учасники:</label>
+            <div class="list-group">
+                <li *ngFor="let user of userGroup.Users"
+                    class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <p style="vertical-align: middle;">{{user.ViewName}}({{user.Login}})</p>
+                        <button class="btn btn-danger" (click)="RemoveUser(user.Login)">Виключити</button>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>

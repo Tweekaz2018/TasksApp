@@ -1,0 +1,52 @@
+{
+    "Id": 0,
+    "Label": "Написати звіт",
+    "Description": "Звіт по мудаках 1 ср",
+    "EndDate": "2023-09-20T08:13:51.892Z",
+    "CreateDate":"2023-09-20T08:13:51.892Z",
+    "Priority": "Низький",
+    "isClosed": false,
+    "Reporter": {
+        "Id": 0,
+        "ViewName": "Сергій Горохівський",
+        "Login": "Combat"
+    },
+    "Executor": {
+        "Id": 1,
+        "ViewName": "Саня Прокурор",
+        "Login": "loh228"
+    },
+    "Comments": [
+        {
+            "Id": 0,
+            "Description": "Саня давай!",
+            "Commentator": {
+                "Id": 3,
+                "ViewName": "Vlad Buyalo",
+                "Login": "Login"
+            },
+            "CreateDate":"2023-09-20T08:13:51.892Z"
+        },
+        {
+            "Id": 0,
+            "Description": "Саня давай!",
+            "Commentator": {
+                "Id": 3,
+                "ViewName": "Vlad Buyalo",
+                "Login": "Login"
+            },
+            "CreateDate":"2023-09-20T08:13:51.892Z"
+        },
+        {
+            "Id": 0,
+            "Description": "Саня давай!",
+            "Commentator": {
+                "Id": 3,
+                "ViewName": "Vlad Buyalo",
+                "Login": "Login"
+            },
+            "CreateDate":"2023-09-20T08:13:51.892Z"
+        }
+    ],
+    "Steps": []
+}

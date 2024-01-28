@@ -1,0 +1,30 @@
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Створити посаду</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Підрозділ: </label>
+                    <select [(ngModel)]="UnitId" class="form-control">
+                        <option *ngFor="let unit of Units" value="{{unit.Id}}" >{{unit.Label}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Назва: </label>
+                    <input [(ngModel)]="Label" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Пріоритет: </label>
+                    <input [(ngModel)]="Priority"  class="form-control"/>
+                </div>
+            </div>
+            <div class="modal-footer"> 
+                <button class="btn btn-success" (click)="SavePosition()">Зберегти</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    (click)="DismisModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

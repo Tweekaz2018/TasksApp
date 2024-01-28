@@ -1,0 +1,53 @@
+<div class="row">
+    <div class="col-3">
+        <button class="btn btn-light btn-block" onclick="history.back()">
+            <<< </button>
+    </div>
+    <div class="col-9">
+        <div class="card">
+            <div class="card-header">{{User?.Login}}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{User?.ViewName}}</h5>
+                Підрозділ: <a href="/unit/{{User?.Unit?.Id}}">{{User?.Unit?.Label}}</a>, <a
+                    href="/unit/position/{{User?.Position?.Id}}">{{User?.Position?.Label}}</a>
+                <br>
+                <!--
+                Групи користувача:
+                <div class="list-group">
+                    <a *ngFor="let group of User?.Groups" href="/group/{{group.Id}}"
+                        class="list-group-item list-group-item-action" aria-current="true">
+                        {{group.Label}}
+                    </a>
+                </div>
+                -->
+            </div>
+        </div>
+        <br>
+        <div class="card" *ngIf="Id.length == 0 && onLoad">
+            <div class="card-header">Змінити пароль:
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Старий пароль</label>
+                            <input [(ngModel)]="oldPassword" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Новий пароль:</label>
+                            <input [(ngModel)]="newPassword" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Підтвердити пароль:</label>
+                            <input [(ngModel)]="newPassword1" class="form-control" />
+                        </div>
+                        <small class="text-danger">{{Error}}</small>
+                        <button class="btn btn-success" (click)="ChangePassword()">Зберегти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

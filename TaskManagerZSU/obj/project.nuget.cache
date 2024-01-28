@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "SWyYlJPoD+xk30DsDVEPdELBI0mzEQLsBrn3BCHUorBPkZEAG1c0sLzODSvxZz9+C65t015lkVEvF9N0HgIwWg==",
+  "success": true,
+  "projectFilePath": "/Users/vladbuyalo/Documents/GitHub/TasksApp/TaskManagerZSU/DataLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/vladbuyalo/.nuget/packages/microsoft.azure.notificationhubs/4.1.0/microsoft.azure.notificationhubs.4.1.0.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.8/microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.caching.memory/3.1.8/microsoft.extensions.caching.memory.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.8/microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.8/microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.options/3.1.8/microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/microsoft.extensions.primitives/3.1.8/microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "/Users/vladbuyalo/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

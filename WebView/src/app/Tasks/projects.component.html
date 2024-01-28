@@ -1,0 +1,5 @@
+<div class="list-group">
+    <button *ngFor="let project of Projects" type="button" (click)="LoadTasks(project.Id)"
+        class="list-group-item list-group-item-action">{{project.Label}}
+    </button>
+</div>

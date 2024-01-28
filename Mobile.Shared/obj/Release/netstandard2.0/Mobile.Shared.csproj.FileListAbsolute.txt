@@ -1,0 +1,11 @@
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/bin/Release/netstandard2.0/Mobile.Shared.deps.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/bin/Release/netstandard2.0/Mobile.Shared.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/bin/Release/netstandard2.0/Mobile.Shared.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.csproj.AssemblyReference.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.AssemblyInfoInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.AssemblyInfo.cs
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.csproj.CoreCompileInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/UserSecretsAssemblyInfo.cs
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile.Shared/obj/Release/netstandard2.0/Mobile.Shared.pdb

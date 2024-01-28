@@ -1,0 +1,14 @@
+<div class="row">
+  <ul class="nav nav-pills  nav-justified">
+    <li class="nav-item active">
+      <a class="nav-link" (click)="Route(1)" href="#">Профиль</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)="Route(2)" href="#">Задачі</a>
+    </li>
+  </ul>
+</div>
+<div class="row">
+  <user-main *ngIf="RouteId == 1"></user-main>
+  <tasks-main *ngIf="RouteId == 2"></tasks-main>
+</div>

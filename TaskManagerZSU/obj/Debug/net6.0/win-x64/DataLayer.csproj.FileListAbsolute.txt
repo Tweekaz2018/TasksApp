@@ -1,0 +1,12 @@
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/bin/Debug/net6.0/win-x64/DataLayer.deps.json
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/bin/Debug/net6.0/win-x64/DataLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/bin/Debug/net6.0/win-x64/DataLayer.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.csproj.AssemblyReference.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.AssemblyInfoInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.AssemblyInfo.cs
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.csproj.CoreCompileInputs.cache
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/refint/DataLayer.dll
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/DataLayer.pdb
+/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/TaskManagerZSU/obj/Debug/net6.0/win-x64/ref/DataLayer.dll

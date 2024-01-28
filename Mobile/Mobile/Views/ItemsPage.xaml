@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.Views.ItemsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:Mobile.ViewModels"  
+             xmlns:model="clr-namespace:Mobile.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ListView x:Name="ProjectList"></ListView>
+
+</ContentPage>
+

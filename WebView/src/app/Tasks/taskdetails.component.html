@@ -1,0 +1,32 @@
+<div class="card" *ngIf="Task != undefined">
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <h5 class="card-title">{{Task.Label}}</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <p *ngIf="Task?.Priority == PriorityEnum.Low">🟦</p>
+                <p *ngIf="Task?.Priority == PriorityEnum.Medium">🔼</p>
+                <p *ngIf="Task?.Priority == PriorityEnum.High">⏫</p>
+            </div>
+            <div class="col-11">
+                <p>{{_endDate}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="card-text">{{Task.Description}}</p>
+            </div>
+        </div>
+        <div class="row">
+            Постановник: <a href="/users/{{Task.Reporter.Login}}">{{Task.Reporter.ViewName}}</a>
+        </div>
+        <div class="row">
+            Відповідальний: <a href="/users/{{Task.Executor.Login}}">{{Task.Executor.ViewName}}</a>
+        </div>
+        <div class="row">
+            <a class="btn btn-secondary" href="/tasks/{{Task.Id}}">Подивитись повністю</a>
+        </div>
+    </div>

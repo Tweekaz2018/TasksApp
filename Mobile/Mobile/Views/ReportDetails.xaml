@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Mobile.Views.ReportDetails">
+    
+    <Shell.TitleView>
+    <StackLayout>
+        <Button Text="Виконати" x:Name="Resolve" HeightRequest="50" WidthRequest="100" HorizontalOptions="End"></Button>
+    </StackLayout>
+</Shell.TitleView>
+
+    <StackLayout>
+        <Label x:Name="ReportTitle" FontSize="Large"/>
+        <Label FontSize="Medium">Опис:</Label>
+        <Label x:Name="Description" />
+        <Label FontSize="Medium">Пріоритет: </Label>
+        <Label x:Name="Priority"></Label>
+        <Label FontSize="Medium">Постановник:</Label>
+        <Label x:Name="From"></Label>
+        <Label FontSize="Medium">Відповідальний: </Label>
+        <Label x:Name="Executor"></Label>
+        <Label FontSize="Medium">Дата створення:</Label>
+        <Label x:Name="CreateData"></Label>
+        <Label FontSize="Medium">Кінцева дата:</Label>
+        <Label x:Name="Enddate"></Label>
+        <Label FontSize="Medium">Коментарі:</Label>
+        <ListView x:Name="Comments" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding Text}" FontSize="16" />
+                                <Label Text="{Binding ViewName}" FontSize="14" />
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label>Додати коментар:</Label>
+        <Entry x:Name="newComment"></Entry>
+        <Button x:Name="AddButton" Text="Додати"/>
+    </StackLayout>
+</ContentPage>

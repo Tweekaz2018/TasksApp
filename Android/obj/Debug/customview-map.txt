@@ -1,0 +1,4 @@
+LinearLayout;obj/Debug/res/layout/main.xml
+resources;obj/Debug/res/values/strings.xml
+string;obj/Debug/res/values/strings.xml
+WebView;obj/Debug/res/layout/main.xml

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_CodesignBundle Include="mobile.ios.app">
+      <CodesignSigningKey>F9AFD572A2910CDDAF993D11400A6FE734FFC45B</CodesignSigningKey>
+      <CodesignEntitlements>/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/Entitlements.xcent</CodesignEntitlements>
+      <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
+      <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
+      <RequireCodeSigning>true</RequireCodeSigning>
+      <CodesignExtraArgs></CodesignExtraArgs>
+      <CodesignResourceRules></CodesignResourceRules>
+      <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
+      <CodesignKeychain></CodesignKeychain>
+      <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
+      <SourceProjectPath>/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios</SourceProjectPath>
+    </_CodesignBundle>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_release_managed_ref
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_UIApplicationMain
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_log
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/mobile.ios/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip

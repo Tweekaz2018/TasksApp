@@ -1,0 +1,78 @@
+<div class="row">
+    <div class="col-2">
+        <a href="/" class="btn btn-light btn-block">
+            <<< </a>
+    </div>
+    <div class="col-9">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h4>{{Task?.Label}}</h4>
+                    <div class="row">
+                        <div class="col-2">
+                            <p *ngIf="Task?.Priority == PriorityEnum.Low">Пріорітет: 🟦(Низький)</p>
+                            <p *ngIf="Task?.Priority == PriorityEnum.Medium">Пріорітет: 🔼(Середній)</p>
+                            <p *ngIf="Task?.Priority == PriorityEnum.High">Пріорітет: ⏫(Високий)</p>
+                        </div>
+                        <div class="col-2">
+                            <p>До: {{formatDate(Task?.EndDate)}}</p>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                Постановник: <a href="/users/{{Task?.Reporter?.Login}}">{{Task?.Reporter?.ViewName}}</a>
+                            </div>
+                            <div class="row">
+                                Відповідальний: <a
+                                    href="/users/{{Task?.Executor?.Login}}">{{Task?.Executor?.ViewName}}</a>
+
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="row" *ngIf="Task?.IsClosed == false">
+                                <button class="btn btn-outline-dark" *ngIf="canChange"
+                                    (click)="ShowEditModal()">Змінити</button>
+                                <button class="btn btn-outline-success" (click)="CloseTaskModal()">Доповісти про
+                                    виконання</button>
+                            </div>
+                            <div class="row" *ngIf="Task?.IsClosed == true">
+                                <button class="btn btn-block btn-danger">Закрито</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text">{{Task?.Description}}</p>
+                        </div>
+                    </div>
+                    <div class="col">Створено: {{formatDate(Task?.CreatingDate)}}</div>
+                    <div class="col">Змінено: {{formatDate(Task?.UpdatingDate)}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngFor="let comment of Task?.Comments">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">{{comment?.Commentator?.ViewName}}</h6>
+                    <small class="text-muted">{{formatDate(comment?.CreatingDate)}}</small>
+                    <p class="card-text">{{comment.Description}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="Task?.IsClosed == false">
+            <div class="card">
+                <div class="card-body">
+                    <textarea class="form-control" [(ngModel)]="text"></textarea>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary" (click)="AppendComment()">Зберегти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<edittask-main [editTaskModal]="openEditModal" (onPlainClose)="onClose($event)" (onSave)="onTaskChanged($event)"
+    [Task]="Task" [Users]="Users"></edittask-main>
+
+<closetask-main [closeTaskModal]="openCloseTaskModal" (onPlainClose)="onClose($event)"
+    (onCloseTask)="onCloseTask($event)"></closetask-main>

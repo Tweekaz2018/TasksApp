@@ -1,0 +1,9 @@
+<select *ngIf="Tasks.length > 0" class="form-control" [(ngModel)]="_filter" (ngModelChange)="ReloadTasks()">
+    <option value="0">Відкриті задачі</option>
+    <option value="1">Всі задачі</option>
+</select>
+<div class="list-group">
+    <button *ngFor="let task of _filteredTasks" type="button" (click)="LoadTask(task.Id)"
+        class="list-group-item list-group-item-action">{{task.Label}}
+    </button>
+</div>

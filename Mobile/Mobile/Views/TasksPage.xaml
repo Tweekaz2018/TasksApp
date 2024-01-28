@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Mobile.Views.TasksPage">
+
+    <Shell.TitleView>
+    <StackLayout>
+        <Button Text="Додати" x:Name="AddButton" HeightRequest="50" WidthRequest="100" HorizontalOptions="End"></Button>
+    </StackLayout>
+</Shell.TitleView>
+
+    <ListView x:Name="TasksList"></ListView>
+
+</ContentPage>
+

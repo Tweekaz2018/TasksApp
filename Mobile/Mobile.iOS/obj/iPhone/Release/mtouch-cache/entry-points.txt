@@ -1,0 +1,87 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_UIApplicationMain
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/vladbuyalo/Documents/GitHub/TaskManagerZSU/Mobile/Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
